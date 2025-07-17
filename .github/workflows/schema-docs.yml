@@ -47,9 +47,6 @@ jobs:
       - name: List files after OpenAPI generation
         run: ls -l
 
-      - name: Move OpenAPI spec to docs
-        run: mv openapi.yaml docs/openapi.yaml
-
       - name: List files in docs after move
         run: ls -l docs
 
