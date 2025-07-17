@@ -1,4 +1,4 @@
-// generate-openapi.js
+// scripts/generate-openapi.js
 
 const fs = require("fs");
 const path = require("path");
@@ -14,7 +14,7 @@ const YAML = require("yaml");
   };
 
   for (const file of schemaFiles) {
-    const name = path.basename(file).replace(".schema.json", "");
+    const name = path.basename(file, ".schema.json");
     const raw = fs.readFileSync(file, "utf8");
     const jsonSchema = JSON.parse(raw);
 
@@ -36,7 +36,14 @@ const YAML = require("yaml");
     components,
   };
 
-  const output = YAML.stringify(openapi);
-  fs.writeFileSync("openapi.yaml", output);
-  console.log("✅ openapi.yaml generated successfully");
+  // Output to both YAML and JSON under docs/
+  const outputDir = path.resolve("docs");
+  fs.mkdirSync(outputDir, { recursive: true });
+
+  const yamlOutput = YAML.stringify(openapi);
+  fs.writeFileSync(path.join(outputDir, "openapi.yaml"), yamlOutput);
+
+  fs.writeFileSync(path.join(outputDir, "openapi.json"), JSON.stringify(openapi, null, 2));
+
+  console.log("✅ openapi.yaml and openapi.json generated in docs/");
 })();
