@@ -1,4 +1,4 @@
-name: Build & Publish Schema Docs
+name: Build & Publish OpenAPI Docs
 
 on:
   push:
@@ -8,19 +8,16 @@ jobs:
   build-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+      - name: Install Redocly CLI
+        run: npm install -g @redocly/cli
 
-      - run: npm install -g redoc-cli
+      - name: Generate docs
+        run: npx @redocly/cli build-docs openapi.yaml -o docs/index.html
 
-      - name: Generate static docs
-        run: redoc-cli bundle openapi.yaml -o docs/index.html
-
-      - name: Deploy to GitHub Pages
+      - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
