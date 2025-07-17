@@ -8,16 +8,14 @@ const YAML = require("yaml");
 
 (async () => {
   const schemaFiles = await glob("src/**/*.schema.json");
-
-  const components = {
-    schemas: {},
-  };
+  const components = { schemas: {} };
+  const schemaNames = [];
 
   for (const file of schemaFiles) {
     const name = path.basename(file, ".schema.json");
+    schemaNames.push(name);
     const raw = fs.readFileSync(file, "utf8");
     const jsonSchema = JSON.parse(raw);
-
     try {
       const openapiSchema = await convert(jsonSchema);
       components.schemas[name] = openapiSchema;
@@ -26,24 +24,44 @@ const YAML = require("yaml");
     }
   }
 
+//  Add a sample endpoint that lists all schemas
   const openapi = {
     openapi: "3.0.3",
     info: {
       title: "KRAIL-CONFIG Schema API",
       version: "1.0.0",
     },
-    paths: {},
+    paths: {
+      "/schemas": {
+        get: {
+          summary: "List all schemas",
+          responses: {
+            "200": {
+              description: "OK",
+              content: {
+                "application/json": {
+                  schema: {
+                    type: "object",
+                    properties: Object.fromEntries(
+                      schemaNames.map(name => [
+                        name,
+                        { $ref: `#/components/schemas/${name}` }
+                      ])
+                    )
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     components,
   };
 
-  // Output to both YAML and JSON under docs/
   const outputDir = path.resolve("docs");
   fs.mkdirSync(outputDir, { recursive: true });
-
-  const yamlOutput = YAML.stringify(openapi);
-  fs.writeFileSync(path.join(outputDir, "openapi.yaml"), yamlOutput);
-
+  fs.writeFileSync(path.join(outputDir, "openapi.yaml"), YAML.stringify(openapi));
   fs.writeFileSync(path.join(outputDir, "openapi.json"), JSON.stringify(openapi, null, 2));
-
   console.log("✅ openapi.yaml and openapi.json generated in docs/");
 })();
