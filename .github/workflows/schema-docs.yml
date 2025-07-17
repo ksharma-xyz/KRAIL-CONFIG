@@ -44,11 +44,12 @@ jobs:
       - name: Generate OpenAPI from all schemas
         run: npm run generate:openapi
 
-      - name: List files after OpenAPI generation
-        run: ls -l
-
-      - name: List files in docs after move
-        run: ls -l docs
+      - name: List generated files
+        run: |
+          echo "Files in root:"
+          ls -la openapi.*
+          echo "Files in docs:"
+          ls -l docs
 
       - name: Upload docs to GitHub Pages
         uses: actions/upload-pages-artifact@v3
