@@ -2,6 +2,8 @@
 
 This repository contains JSON schemas for KRAIL app configuration and a workflow to generate OpenAPI specification documentation from those schemas.
 
+https://ksharma-xyz.github.io/KRAIL-CONFIG/
+
 ---
 
 ## What’s in this repo?
