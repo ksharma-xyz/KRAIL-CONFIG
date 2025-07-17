@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@openapi-contrib/json-schema-to-openapi-schema": "^4.0.2",
+    "yaml": "^2.8.0"
+  }
+}
