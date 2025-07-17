@@ -17,6 +17,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install Tools
+        run: |
+          npm install -g ajv-cli
+
       - name: Validate all JSON files
         run: |
           find src -name '*.schema.json' | while read schema; do
