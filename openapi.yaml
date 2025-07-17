@@ -61,3 +61,8 @@ components:
           format: uri
           nullable: true
           description: Optional URL to open when the CTA is tapped.
+        shareUrl:
+          type: string
+          format: uri
+          nullable: true
+          description: Optional URL to share the notice.
