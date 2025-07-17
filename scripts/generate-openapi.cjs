@@ -29,7 +29,7 @@ const YAML = require("yaml");
   const openapi = {
     openapi: "3.0.3",
     info: {
-      title: "KRAIL Schema API",
+      title: "KRAIL-CONFIG Schema API",
       version: "1.0.0",
     },
     paths: {},
