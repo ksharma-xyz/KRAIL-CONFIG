@@ -49,8 +49,11 @@ jobs:
             cat "$schema" | jq '.' | sed 's/^/      /' >> openapi.yaml
           done
 
+      - name: Move OpenAPI spec to docs
+        run: mv openapi.yaml docs/openapi.yaml
+
       - name: Build Redoc docs
-        run: npx @redocly/cli build-docs openapi.yaml -o docs/index.html
+        run: npx @redocly/cli build-docs docs/openapi.yaml -o docs/index.html
 
       - name: Upload docs to GitHub Pages
         uses: actions/upload-pages-artifact@v3
