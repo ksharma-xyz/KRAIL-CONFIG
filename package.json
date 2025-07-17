@@ -6,6 +6,6 @@
     "yaml": "^2.8.0"
   },
   "scripts": {
-    "generate:openapi": "node scripts/generate-openapi.js"
+    "generate:openapi": "node scripts/generate-openapi.cjs"
   }
 }
