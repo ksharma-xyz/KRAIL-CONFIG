@@ -13,7 +13,8 @@
           "description": { "type": "string" },
           "heroImageUrl": { "type": "string" },
           "ctaText": { "type": ["string", "null"] },
-          "ctaUrl": { "type": ["string", "null"] }
+          "ctaUrl": { "type": ["string", "null"] },
+          "shareUrl": { "type": ["string", "null"] }
         },
         "required": [
           "type",
