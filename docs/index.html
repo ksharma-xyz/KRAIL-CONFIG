@@ -25,7 +25,7 @@
 <script>
     window.onload = function() {
       const ui = SwaggerUIBundle({
-        url: './openapi.yaml',
+        url: 'openapi.yaml',
         dom_id: '#swagger-ui',
         deepLinking: true,
         presets: [
@@ -35,7 +35,27 @@
         plugins: [
           SwaggerUIBundle.plugins.DownloadUrl
         ],
-        layout: "StandaloneLayout"
+        layout: "StandaloneLayout",
+        onComplete: function() {
+          console.log('Swagger UI loaded successfully');
+        },
+        onFailure: function(data) {
+          console.error('Failed to load OpenAPI spec:', data);
+          // Try alternative URL if the first one fails
+          const fallbackUi = SwaggerUIBundle({
+            url: './openapi.json',
+            dom_id: '#swagger-ui',
+            deepLinking: true,
+            presets: [
+              SwaggerUIBundle.presets.apis,
+              SwaggerUIStandalonePreset
+            ],
+            plugins: [
+              SwaggerUIBundle.plugins.DownloadUrl
+            ],
+            layout: "StandaloneLayout"
+          });
+        }
       });
     };
 </script>
