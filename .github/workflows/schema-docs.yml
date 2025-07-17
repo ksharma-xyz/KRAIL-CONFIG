@@ -1,27 +1,69 @@
-name: Build & Publish Schema Docs
+name: Validate and Generate Docs
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build-docs:
+  validate-and-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Install Node.js
-        uses: actions/setup-node@v3
+      - name: Install Tools
+        run: |
+          npm install -g ajv-cli @redocly/cli
+
+      - name: Validate all JSON files
+        run: |
+          find src -name '*.schema.json' | while read schema; do
+            json_file=$(echo "$schema" | sed 's/\.schema\.json$/.json/')
+            if [ -f "$json_file" ]; then
+              echo "Validating $json_file against $schema"
+              ajv validate -s "$schema" -d "$json_file" || exit 1
+            else
+              echo "⚠️ No matching JSON file for schema: $schema"
+            fi
+          done
+
+      - name: Generate OpenAPI from all schemas
+        run: |
+          echo "openapi: 3.0.3" > openapi.yaml
+          echo "info:" >> openapi.yaml
+          echo "  title: Config Schemas" >> openapi.yaml
+          echo "  version: 1.0.0" >> openapi.yaml
+          echo "paths: {}" >> openapi.yaml
+          echo "components:" >> openapi.yaml
+          echo "  schemas:" >> openapi.yaml
+
+          find src -name '*.schema.json' | while read schema; do
+            name=$(basename "$schema" .schema.json)
+            echo "    $name:" >> openapi.yaml
+            cat "$schema" | jq '.' | sed 's/^/      /' >> openapi.yaml
+          done
+
+      - name: Build Redoc docs
+        run: npx @redocly/cli build-docs openapi.yaml -o docs/index.html
+
+      - name: Upload docs to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
         with:
-          node-version: 18
+          path: docs/
 
-      - run: npm install -g redoc-cli
-
-      - name: Generate static docs
-        run: redoc-cli bundle openapi.yaml -o docs/index.html
-
+  deploy:
+    needs: validate-and-docs
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+        id: deployment
+        uses: actions/deploy-pages@v4
