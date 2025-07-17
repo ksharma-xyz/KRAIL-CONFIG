@@ -74,3 +74,6 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+
+# Optional if using Swagger/OpenAPI
+openapi.yaml
