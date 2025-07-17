@@ -17,10 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Tools
-        run: |
-          npm install -g ajv-cli @redocly/cli
-
       - name: Validate all JSON files
         run: |
           find src -name '*.schema.json' | while read schema; do
@@ -33,21 +29,16 @@ jobs:
             fi
           done
 
-      - name: Generate OpenAPI from all schemas
-        run: |
-          echo "openapi: 3.0.3" > openapi.yaml
-          echo "info:" >> openapi.yaml
-          echo "  title: Config Schemas" >> openapi.yaml
-          echo "  version: 1.0.0" >> openapi.yaml
-          echo "paths: {}" >> openapi.yaml
-          echo "components:" >> openapi.yaml
-          echo "  schemas:" >> openapi.yaml
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
 
-          find src -name '*.schema.json' | while read schema; do
-            name=$(basename "$schema" .schema.json)
-            echo "    $name:" >> openapi.yaml
-            cat "$schema" | jq '.' | sed 's/^/      /' >> openapi.yaml
-          done
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate OpenAPI from all schemas
+        run: npm run generate:openapi
 
       - name: List files after OpenAPI generation
         run: ls -l
@@ -56,12 +47,6 @@ jobs:
         run: mv openapi.yaml docs/openapi.yaml
 
       - name: List files in docs after move
-        run: ls -l docs
-
-      - name: Build Redoc docs
-        run: npx @redocly/cli build-docs docs/openapi.yaml -o docs/index.html
-
-      - name: List files in docs after Redoc build
         run: ls -l docs
 
       - name: Upload docs to GitHub Pages
