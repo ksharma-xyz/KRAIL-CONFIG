@@ -1,6 +1,7 @@
 # KRAIL Config Schema Docs
 
-This repository contains JSON schemas for KRAIL app configuration and a workflow to generate OpenAPI specification documentation from those schemas.
+This repository contains JSON schemas for KRAIL app configuration and a workflow to generate OpenAPI specification
+documentation from those schemas.
 
 https://ksharma-xyz.github.io/KRAIL-CONFIG/
 
@@ -9,9 +10,11 @@ https://ksharma-xyz.github.io/KRAIL-CONFIG/
 ## What’s in this repo?
 
 - `src/` — Folder containing JSON schema files (`*.schema.json`) describing configuration data.
-- `scripts/generate-openapi.js` — Node.js script that converts JSON schemas into a combined OpenAPI 3.0 spec (`openapi.yaml` and `openapi.json`).
+- `scripts/generate-openapi.cjs` — Node.js script that converts JSON schemas into a combined OpenAPI 3.0 spec (
+  `openapi.yaml` and `openapi.json`).
 - `docs/` — Folder containing generated OpenAPI specs and documentation assets (served by GitHub Pages).
-- `.github/workflows/generate-openapi.yml` — GitHub Actions workflow to automatically regenerate and commit the OpenAPI spec on schema changes.
+- `.github/workflows/generate-openapi.yml` — GitHub Actions workflow to automatically regenerate and commit the OpenAPI
+  spec on schema changes.
 
 ---
 
@@ -44,11 +47,13 @@ npm run generate:openapi
 ```
 
 This will:
+
 - Read all .schema.json files under src/
 - Convert them to OpenAPI schema components
 - Output openapi.yaml and openapi.json files inside the docs/ folder
 
 ## Viewing the documentation
+
 The generated OpenAPI spec can be visualized using:
 
 - Swagger Editor: Paste the contents of docs/openapi.yaml or docs/openapi.json.
@@ -56,6 +61,7 @@ The generated OpenAPI spec can be visualized using:
 - GitHub Pages, if you have the docs/ folder configured as your GitHub Pages source.
 
 ## Automating generation on push
+
 The GitHub Actions workflow .github/workflows/generate-openapi.yml automatically:
 
 - Runs on pushes to the main branch.
@@ -65,6 +71,7 @@ The GitHub Actions workflow .github/workflows/generate-openapi.yml automatically
 This keeps the OpenAPI docs up to date with minimal manual work.
 
 ## Customization
+
 Add or remove JSON schemas in the src/ folder to modify the API schema.
 
 ## Development Tips
@@ -74,10 +81,13 @@ Add or remove JSON schemas in the src/ folder to modify the API schema.
 - Run npm run generate:openapi after schema edits to preview changes locally before pushing.
 
 ## Troubleshooting
+
 - If you get missing module errors (yaml, fast-glob, etc.), run:
+
 ```bash
 npm install
 ```
+
 - Ensure node_modules/ is in .gitignore and not committed.
 - If GitHub Pages fails to serve docs, confirm your repository’s Pages source is set to the /docs folder.
 
