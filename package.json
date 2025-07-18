@@ -7,6 +7,6 @@
   },
   "scripts": {
     "generate:openapi": "node scripts/generate-openapi.cjs",
-    "generate:schemas": "node scripts/generate-schema.js"
+    "generate:schemas": "node scripts/generate-schema.cjs"
   }
 }

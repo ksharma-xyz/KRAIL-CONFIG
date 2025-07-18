@@ -27,7 +27,7 @@ jobs:
           node-version: '18'
 
       - name: Auto-generate missing schema files
-        run: node scripts/generate-schema.js
+        run: node scripts/generate-schema.cjs
 
       - name: Validate all JSON files
         run: |
