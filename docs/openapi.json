@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "KRAIL-CONFIG Schema API",
+    "title": "KRAIL-CONFIG Schema",
     "version": "1.0.0"
   },
   "paths": {},
