@@ -1,4 +1,4 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: pages-themes/slate@v0.2.0
 title: KRAIL Config Docs
 description: Documentation for KRAIL CONFIG docs
 color_scheme: dark
