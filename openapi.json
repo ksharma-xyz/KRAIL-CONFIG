@@ -16,17 +16,17 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "festival": {
-                      "$ref": "#/components/schemas/festival"
-                    },
-                    "festival.schema": {
-                      "$ref": "#/components/schemas/festival.schema"
-                    },
                     "notice": {
                       "$ref": "#/components/schemas/notice"
                     },
                     "notice.schema": {
                       "$ref": "#/components/schemas/notice.schema"
+                    },
+                    "festival": {
+                      "$ref": "#/components/schemas/festival"
+                    },
+                    "festival.schema": {
+                      "$ref": "#/components/schemas/festival.schema"
                     }
                   }
                 }
@@ -39,6 +39,110 @@
   },
   "components": {
     "schemas": {
+      "notice": {
+        "x-noticeList": [
+          {
+            "title": "Card Title",
+            "description": "Card description goes here.",
+            "imageUrl": "https://example.com/image.jpg",
+            "buttons": [
+              {
+                "type": "CTA",
+                "text": "Learn More",
+                "url": "https://example.com/learn"
+              },
+              {
+                "type": "SHARE",
+                "url": "https://example.com/share"
+              }
+            ]
+          },
+          {
+            "title": "Card with Feedback",
+            "description": "Feedback example.",
+            "imageUrl": "https://example.com/image2.jpg",
+            "buttons": [
+              {
+                "type": "FEEDBACK"
+              }
+            ]
+          },
+          {
+            "title": "Card with Social",
+            "description": "Social example.",
+            "imageUrl": "https://example.com/image3.jpg",
+            "buttons": [
+              {
+                "type": "SOCIAL"
+              }
+            ]
+          },
+          {
+            "title": "Card Title",
+            "description": "Card description goes here.",
+            "imageUrl": "https://example.com/image.jpg",
+            "buttons": [
+              {
+                "type": "CTA",
+                "text": "Learn More",
+                "url": "https://example.com/learn"
+              }
+            ]
+          },
+          {
+            "title": "Card Title",
+            "description": "Card description goes here.",
+            "imageUrl": "https://example.com/image.jpg"
+          }
+        ]
+      },
+      "notice.schema": {
+        "type": "object",
+        "title": "Notice",
+        "description": "Schema for notice",
+        "properties": {
+          "noticeList": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "heroImageUrl": {
+                  "type": "string"
+                },
+                "ctaText": {
+                  "type": "string"
+                },
+                "ctaUrl": {
+                  "type": "string"
+                },
+                "shareUrl": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "title",
+                "description",
+                "heroImageUrl"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "noticeList"
+        ],
+        "additionalProperties": false
+      },
       "festival": {
         "x-confirmedDates": [
           {
@@ -606,94 +710,6 @@
         "required": [
           "confirmedDates",
           "variableDates"
-        ],
-        "additionalProperties": false
-      },
-      "notice": {
-        "x-noticeList": [
-          {
-            "type": "APP_VERSION_UPGRADE",
-            "title": "Notice Title 1",
-            "description": "Notice Description 1",
-            "heroImageUrl": "https://example.com/image1.jpg",
-            "ctaText": "Read More",
-            "ctaUrl": "https://example.com/notice1",
-            "shareUrl": "https://example.com/share1"
-          },
-          {
-            "type": "APP_REVIEW",
-            "title": "Notice Title 1",
-            "description": "Notice Description 1",
-            "heroImageUrl": "https://example.com/image1.jpg",
-            "ctaText": "Read More",
-            "ctaUrl": "https://example.com/notice1"
-          },
-          {
-            "type": "FOLLOW_US",
-            "title": "Notice Title 1",
-            "description": "Notice Description 1",
-            "heroImageUrl": "https://example.com/image1.jpg",
-            "ctaText": "Read More",
-            "ctaUrl": "https://example.com/notice1"
-          },
-          {
-            "type": "INFORMATION",
-            "title": "Notice Title 1",
-            "description": "Notice Description 1",
-            "heroImageUrl": "https://example.com/image1.jpg",
-            "ctaText": "Read More",
-            "ctaUrl": "https://example.com/notice1",
-            "shareUrl": "https://example.com/share1"
-          }
-        ]
-      },
-      "notice.schema": {
-        "type": "object",
-        "title": "Notice",
-        "description": "Schema for notice",
-        "properties": {
-          "noticeList": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "heroImageUrl": {
-                  "type": "string"
-                },
-                "ctaText": {
-                  "type": "string"
-                },
-                "ctaUrl": {
-                  "type": "string"
-                },
-                "shareUrl": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "type",
-                "title",
-                "description",
-                "heroImageUrl",
-                "ctaText",
-                "ctaUrl",
-                "shareUrl"
-              ],
-              "additionalProperties": false
-            }
-          }
-        },
-        "required": [
-          "noticeList"
         ],
         "additionalProperties": false
       }
