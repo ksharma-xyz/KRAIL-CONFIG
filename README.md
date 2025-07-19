@@ -13,6 +13,20 @@ https://ksharma-xyz.github.io/KRAIL-CONFIG/
 - Generate static HTML docs (using Redoc CLI).
 - Deploy to GitHub Pages (via GitHub Actions).
 
+## Validating YAML
+
+To validate the OpenAPI YAML file, you can use the Redocly CLI tool. First, install it globally if you haven't already:
+
+```bash
+npm install -g @redocly/cli
+```
+
+Then, run the following command to lint the OpenAPI spec:
+
+```bash
+
+`redocly lint docs/openapi.yaml`
+````
 
 ## What’s in this repo?
 
