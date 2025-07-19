@@ -1,4 +1,4 @@
-theme: just-the-docs
+theme: jekyll-theme-chirpy
 title: KRAIL Config Docs
 description: Documentation for KRAIL CONFIG docs
 color_scheme: dark
