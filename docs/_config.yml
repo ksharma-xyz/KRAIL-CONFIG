@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: KRAIL Config Docs
+description: Redoc + Jekyll API site
+markdown: kramdown
