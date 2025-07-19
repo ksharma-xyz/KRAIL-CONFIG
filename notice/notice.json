@@ -1,38 +1,57 @@
 {
   "noticeList": [
     {
-      "type": "APP_VERSION_UPGRADE",
-      "title": "Notice Title 1",
-      "description": "Notice Description 1",
-      "heroImageUrl": "https://example.com/image1.jpg",
-      "ctaText": "Read More",
-      "ctaUrl": "https://example.com/notice1",
-      "shareUrl": "https://example.com/share1"
+      "title": "Card Title",
+      "description": "Card description goes here.",
+      "imageUrl": "https://example.com/image.jpg",
+      "buttons": [
+        {
+          "type": "CTA",
+          "text": "Learn More",
+          "url": "https://example.com/learn"
+        },
+        {
+          "type": "SHARE",
+          "url": "https://example.com/share"
+        }
+      ]
     },
     {
-      "type": "APP_REVIEW",
-      "title": "Notice Title 1",
-      "description": "Notice Description 1",
-      "heroImageUrl": "https://example.com/image1.jpg",
-      "ctaText": "Read More",
-      "ctaUrl": "https://example.com/notice1"
+      "title": "Card with Feedback",
+      "description": "Feedback example.",
+      "imageUrl": "https://example.com/image2.jpg",
+      "buttons": [
+        {
+          "type": "FEEDBACK"
+        }
+      ]
     },
     {
-      "type": "FOLLOW_US",
-      "title": "Notice Title 1",
-      "description": "Notice Description 1",
-      "heroImageUrl": "https://example.com/image1.jpg",
-      "ctaText": "Read More",
-      "ctaUrl": "https://example.com/notice1"
+      "title": "Card with Social",
+      "description": "Social example.",
+      "imageUrl": "https://example.com/image3.jpg",
+      "buttons": [
+        {
+          "type": "SOCIAL"
+        }
+      ]
     },
     {
-      "type": "INFORMATION",
-      "title": "Notice Title 1",
-      "description": "Notice Description 1",
-      "heroImageUrl": "https://example.com/image1.jpg",
-      "ctaText": "Read More",
-      "ctaUrl": "https://example.com/notice1",
-      "shareUrl": "https://example.com/share1"
+      "title": "Card Title",
+      "description": "Card description goes here.",
+      "imageUrl": "https://example.com/image.jpg",
+      "buttons": [
+        {
+          "type": "CTA",
+          "text": "Learn More",
+          "url": "https://example.com/learn"
+        }
+      ]
+    },
+    {
+      "title": "Card Title",
+      "description": "Card description goes here.",
+      "imageUrl": "https://example.com/image.jpg"
     }
   ]
 }
