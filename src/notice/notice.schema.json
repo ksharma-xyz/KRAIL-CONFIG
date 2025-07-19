@@ -35,10 +35,7 @@
           "type",
           "title",
           "description",
-          "heroImageUrl",
-          "ctaText",
-          "ctaUrl",
-          "shareUrl"
+          "heroImageUrl"
         ],
         "additionalProperties": false
       }
