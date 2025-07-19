@@ -1,8 +1,3 @@
-servers:
-  - url: https://api.krail.app
-
-security: []
-
 openapi: 3.0.3
 info:
   title: KRAIL-CONFIG Schema API
@@ -10,6 +5,13 @@ info:
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://api.krail.app
+
+security: []
+
+
 paths:
   /schemas:
     get:
