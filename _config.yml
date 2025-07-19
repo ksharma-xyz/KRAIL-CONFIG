@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
+theme: just-the-docs
 title: KRAIL Config Docs
-description: Redoc + Jekyll API site
-markdown: kramdown
+description: Documentation for KRAIL CONFIG docs
+color_scheme: dark
+search_enabled: true
