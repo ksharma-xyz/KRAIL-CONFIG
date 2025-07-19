@@ -1,12 +1,23 @@
+servers:
+  - url: https://api.krail.app
+
+security: []
+
 openapi: 3.0.3
 info:
   title: KRAIL-CONFIG Schema API
   version: 1.0.0
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
 paths:
   /schemas:
     get:
       summary: List all schemas
+      operationId: listSchemas
       responses:
+        "400":
+          description: Bad Request
         "200":
           description: OK
           content:
