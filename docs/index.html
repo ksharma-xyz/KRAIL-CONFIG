@@ -1,63 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-    <title>KRAIL-CONFIG Schema</title>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@5.10.3/swagger-ui.css" />
-    <style>
-        html {
-          box-sizing: border-box;
-          overflow: -moz-scrollbars-vertical;
-          overflow-y: scroll;
-        }
-        *, *:before, *:after {
-          box-sizing: inherit;
-        }
-        body {
-          margin:0;
-          background: #fafafa;
-        }
-    </style>
+    <title>KRAIL-CONFIG API Docs</title>
+    <meta charset="utf-8"/>
+    <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
 </head>
 <body>
-<div id="swagger-ui"></div>
-<script src="https://unpkg.com/swagger-ui-dist@5.10.3/swagger-ui-bundle.js"></script>
-<script src="https://unpkg.com/swagger-ui-dist@5.10.3/swagger-ui-standalone-preset.js"></script>
-<script>
-    window.onload = function() {
-      const ui = SwaggerUIBundle({
-        url: 'openapi.yaml',
-        dom_id: '#swagger-ui',
-        deepLinking: true,
-        presets: [
-          SwaggerUIBundle.presets.apis,
-          SwaggerUIStandalonePreset
-        ],
-        plugins: [
-          SwaggerUIBundle.plugins.DownloadUrl
-        ],
-        layout: "StandaloneLayout",
-        onComplete: function() {
-          console.log('Swagger UI loaded successfully');
-        },
-        onFailure: function(data) {
-          console.error('Failed to load OpenAPI spec:', data);
-          // Try alternative URL if the first one fails
-          const fallbackUi = SwaggerUIBundle({
-            url: './openapi.json',
-            dom_id: '#swagger-ui',
-            deepLinking: true,
-            presets: [
-              SwaggerUIBundle.presets.apis,
-              SwaggerUIStandalonePreset
-            ],
-            plugins: [
-              SwaggerUIBundle.plugins.DownloadUrl
-            ],
-            layout: "StandaloneLayout"
-          });
-        }
-      });
-    };
-</script>
+<redoc spec-url="openapi.yaml"></redoc>
 </body>
 </html>
