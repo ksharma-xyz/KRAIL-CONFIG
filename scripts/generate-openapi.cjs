@@ -5,12 +5,13 @@ const convert = require("@openapi-contrib/json-schema-to-openapi-schema").defaul
 const YAML = require("yaml");
 
 (async () => {
-  const schemaFiles = await glob("src/**/*.schema.json");
+  // Match all .json files under src/
+  const schemaFiles = await glob("src/**/*.json");
   const components = { schemas: {} };
   const schemaNames = [];
 
   for (const file of schemaFiles) {
-    const name = path.basename(file, ".schema.json");
+    const name = path.basename(file, ".json");
     schemaNames.push(name);
     const raw = fs.readFileSync(file, "utf8");
     const jsonSchema = JSON.parse(raw);
@@ -22,7 +23,6 @@ const YAML = require("yaml");
     }
   }
 
-//  Add a sample endpoint that lists all schemas
   const openapi = {
     openapi: "3.0.3",
     info: {
@@ -57,16 +57,13 @@ const YAML = require("yaml");
     components,
   };
 
-  // Generate files at root level
   fs.writeFileSync("openapi.yaml", YAML.stringify(openapi));
   fs.writeFileSync("openapi.json", JSON.stringify(openapi, null, 2));
 
-  // Also create docs directory and copy files there for GitHub Pages
   const outputDir = path.resolve("docs");
   fs.mkdirSync(outputDir, { recursive: true });
   fs.writeFileSync(path.join(outputDir, "openapi.yaml"), YAML.stringify(openapi));
   fs.writeFileSync(path.join(outputDir, "openapi.json"), JSON.stringify(openapi, null, 2));
 
   console.log("✅ openapi.yaml and openapi.json generated at root and copied to docs/");
-
 })();

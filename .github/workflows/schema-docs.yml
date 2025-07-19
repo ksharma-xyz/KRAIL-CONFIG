@@ -1,71 +1,31 @@
-name: Validate and Generate Docs
+name: Build & Deploy Docs
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
-  validate-and-docs:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install Tools
-        run: |
-          npm install -g ajv-cli
-
-      - name: Setup Node.js for schema generation
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-
-      - name: Auto-generate missing schema files
-        run: node scripts/generate-schema.cjs
-
-      - name: Validate all JSON files
-        run: |
-          find src -name '*.schema.json' | while read schema; do
-            json_file=$(echo "$schema" | sed 's/\.schema\.json$/.json/')
-            if [ -f "$json_file" ]; then
-              echo "Validating $json_file against $schema"
-              ajv validate -s "$schema" -d "$json_file" || exit 1
-            else
-              echo "⚠️ No matching JSON file for schema: $schema"
-            fi
-          done
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Generate OpenAPI from all schemas
+      - name: Generate OpenAPI spec
         run: npm run generate:openapi
 
-      - name: List generated files
-        run: |
-          echo "Files in root:"
-          ls -la openapi.*
-          echo "Files in docs:"
-          ls -l docs
+      - name: Build Redoc docs
+        run: npm run docs:build
 
-      - name: Upload docs to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/
-
-  deploy:
-    needs: validate-and-docs
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs

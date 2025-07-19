@@ -7,6 +7,13 @@ https://ksharma-xyz.github.io/KRAIL-CONFIG/
 
 ---
 
+## Approach
+
+- Convert JSON Schema to OpenAPI.
+- Generate static HTML docs (using Redoc CLI).
+- Deploy to GitHub Pages (via GitHub Actions).
+
+
 ## What’s in this repo?
 
 - `src/` — Folder containing JSON schema files (`*.schema.json`) describing configuration data.

@@ -8,5 +8,8 @@
   "scripts": {
     "generate:openapi": "node scripts/generate-openapi.cjs",
     "generate:schemas": "node scripts/generate-schema.cjs"
+  },
+  "devDependencies": {
+    "redoc-cli": "^0.13.21"
   }
 }
