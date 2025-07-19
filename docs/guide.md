@@ -1,3 +1,0 @@
-## Guide
-
-Dummy guide here
