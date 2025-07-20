@@ -4,6 +4,9 @@ info:
   version: 1.0.0
   description: API for accessing KRAIL-CONFIG schemas including festivals and
     notices. Each schema type has its own endpoint for better organization.
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
 servers:
   - url: https://api.krail.app
     description: Production server
@@ -13,6 +16,7 @@ paths:
       summary: Get festivals schema
       description: Retrieve the festivals schema with structure and examples
       operationId: getFestivals
+      security: []
       responses:
         "200":
           description: Successfully retrieved festivals schema
@@ -29,6 +33,7 @@ paths:
       summary: Get notice schema
       description: Retrieve the notice schema with structure and examples
       operationId: getNotice
+      security: []
       responses:
         "200":
           description: Successfully retrieved notice schema
@@ -45,6 +50,7 @@ paths:
       summary: List all schemas
       description: Retrieve all available schemas with their structure and examples
       operationId: listAllSchemas
+      security: []
       responses:
         "200":
           description: Successfully retrieved all schemas
@@ -64,7 +70,7 @@ components:
     festivals:
       type: object
       description: Schema for festivals
-      examples:
+      example:
         confirmedDates:
           - type: CHRISTMAS
             month: 12
@@ -453,7 +459,7 @@ components:
     notice:
       type: object
       description: Schema for notice
-      examples:
+      example:
         noticeList:
           - title: Card Title
             description: Card description goes here.

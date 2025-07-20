@@ -3,7 +3,11 @@
   "info": {
     "title": "KRAIL-CONFIG Schema API",
     "version": "1.0.0",
-    "description": "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization."
+    "description": "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization.",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
   },
   "servers": [
     {
@@ -17,6 +21,7 @@
         "summary": "Get festivals schema",
         "description": "Retrieve the festivals schema with structure and examples",
         "operationId": "getFestivals",
+        "security": [],
         "responses": {
           "200": {
             "description": "Successfully retrieved festivals schema",
@@ -42,6 +47,7 @@
         "summary": "Get notice schema",
         "description": "Retrieve the notice schema with structure and examples",
         "operationId": "getNotice",
+        "security": [],
         "responses": {
           "200": {
             "description": "Successfully retrieved notice schema",
@@ -67,6 +73,7 @@
         "summary": "List all schemas",
         "description": "Retrieve all available schemas with their structure and examples",
         "operationId": "listAllSchemas",
+        "security": [],
         "responses": {
           "200": {
             "description": "Successfully retrieved all schemas",
@@ -98,7 +105,7 @@
       "festivals": {
         "type": "object",
         "description": "Schema for festivals",
-        "examples": {
+        "example": {
           "confirmedDates": [
             {
               "type": "CHRISTMAS",
@@ -648,7 +655,7 @@
       "notice": {
         "type": "object",
         "description": "Schema for notice",
-        "examples": {
+        "example": {
           "noticeList": [
             {
               "title": "Card Title",
