@@ -8,18 +8,18 @@ servers:
   - url: https://api.krail.app
     description: Production server
 paths:
-  /festival:
+  /festivals:
     get:
-      summary: Get festival schema
-      description: Retrieve the festival schema with structure and examples
-      operationId: getFestival
+      summary: Get festivals schema
+      description: Retrieve the festivals schema with structure and examples
+      operationId: getFestivals
       responses:
         "200":
-          description: Successfully retrieved festival schema
+          description: Successfully retrieved festivals schema
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/festival"
+                $ref: "#/components/schemas/festivals"
         "400":
           description: Bad Request
         "404":
@@ -53,17 +53,17 @@ paths:
               schema:
                 type: object
                 properties:
-                  festival:
-                    $ref: "#/components/schemas/festival"
+                  festivals:
+                    $ref: "#/components/schemas/festivals"
                   notice:
                     $ref: "#/components/schemas/notice"
         "400":
           description: Bad Request
 components:
   schemas:
-    festival:
+    festivals:
       type: object
-      description: Schema for festival
+      description: Schema for festivals
       examples:
         confirmedDates:
           - type: CHRISTMAS
