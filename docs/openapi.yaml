@@ -1,7 +1,10 @@
-openapi: 3.0.3
+openapi: 3.0.0
 info:
   title: KRAIL-CONFIG Schema API
   version: 1.0.0
+  description: |
+    This API provides access to the KRAIL-CONFIG schemas, including notices and festivals.
+    It allows users to retrieve structured data about various events and notices.
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
@@ -11,16 +14,15 @@ servers:
 
 security: []
 
-
 paths:
   /schemas:
     get:
-      summary: List all schemas
+      description: List all schemas
       operationId: listSchemas
       responses:
-        "400":
+        '400':
           description: Bad Request
-        "200":
+        '200':
           description: OK
           content:
             application/json:
