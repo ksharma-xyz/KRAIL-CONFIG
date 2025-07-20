@@ -24,8 +24,7 @@ npm install -g @redocly/cli
 Then, run the following command to lint the OpenAPI spec:
 
 ```bash
-
-`redocly lint docs/openapi.yaml`
+redocly lint docs/openapi.yaml
 ````
 
 ## What’s in this repo?

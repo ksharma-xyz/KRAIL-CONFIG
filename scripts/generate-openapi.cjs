@@ -5,7 +5,6 @@ const convert = require("@openapi-contrib/json-schema-to-openapi-schema").defaul
 const YAML = require("yaml");
 
 (async () => {
-  // Match all .json files under src/
   const schemaFiles = await glob("src/**/*.json");
   const components = { schemas: {} };
   const schemaNames = [];
@@ -14,8 +13,6 @@ const YAML = require("yaml");
   for (const file of schemaFiles) {
     const relativePath = path.relative("src", file);
     const folderName = path.dirname(relativePath);
-
-    // Use folder name as API name, fallback to filename if in root
     const name = folderName === "." ? path.basename(file, ".json") : folderName;
 
     schemaNames.push(name);
@@ -24,12 +21,9 @@ const YAML = require("yaml");
 
     try {
       const openapiSchema = await convert(jsonSchema);
-
-      // Move x- extensions to proper OpenAPI examples
       const cleanSchema = { ...openapiSchema };
       const examples = {};
 
-      // Extract x- extensions as examples
       Object.keys(cleanSchema).forEach(key => {
         if (key.startsWith('x-')) {
           const exampleKey = key.replace('x-', '');
@@ -38,14 +32,12 @@ const YAML = require("yaml");
         }
       });
 
-      // Create proper schema structure with examples
       if (Object.keys(examples).length > 0) {
         components.schemas[name] = {
           type: 'object',
           description: `Schema for ${name}`,
-          examples: examples,
+          example: examples, // Changed from 'examples' to 'example'
           properties: {
-            // Define basic structure based on the examples
             ...(examples.confirmedDates && {
               confirmedDates: {
                 type: 'array',
@@ -103,16 +95,15 @@ const YAML = require("yaml");
           }
         };
       } else {
-        // If no x- extensions, use the original schema
         components.schemas[name] = cleanSchema;
       }
 
-      // Create individual endpoint for each schema
       paths[`/${name}`] = {
         get: {
           summary: `Get ${name} schema`,
           description: `Retrieve the ${name} schema with structure and examples`,
           operationId: `get${name.charAt(0).toUpperCase() + name.slice(1)}`,
+          security: [], // Added security (empty array means no auth required)
           responses: {
             "200": {
               description: `Successfully retrieved ${name} schema`,
@@ -139,12 +130,12 @@ const YAML = require("yaml");
     }
   }
 
-  // Add the combined schemas endpoint as well
   paths["/schemas"] = {
     get: {
       summary: "List all schemas",
       description: "Retrieve all available schemas with their structure and examples",
       operationId: "listAllSchemas",
+      security: [], // Added security
       responses: {
         "200": {
           description: "Successfully retrieved all schemas",
@@ -174,7 +165,11 @@ const YAML = require("yaml");
     info: {
       title: "KRAIL-CONFIG Schema API",
       version: "1.0.0",
-      description: "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization."
+      description: "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization.",
+      license: { // Added license field
+        name: "Apache 2.0",
+        url: "https://www.apache.org/licenses/LICENSE-2.0"
+      }
     },
     servers: [
       {

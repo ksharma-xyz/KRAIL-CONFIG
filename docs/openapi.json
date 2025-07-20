@@ -3,7 +3,11 @@
   "info": {
     "title": "KRAIL-CONFIG Schema API",
     "version": "1.0.0",
-    "description": "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization."
+    "description": "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization.",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
   },
   "servers": [
     {
@@ -12,36 +16,12 @@
     }
   ],
   "paths": {
-    "/notice": {
-      "get": {
-        "summary": "Get notice schema",
-        "description": "Retrieve the notice schema with structure and examples",
-        "operationId": "getNotice",
-        "responses": {
-          "200": {
-            "description": "Successfully retrieved notice schema",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/notice"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          },
-          "404": {
-            "description": "Schema not found"
-          }
-        }
-      }
-    },
     "/festivals": {
       "get": {
         "summary": "Get festivals schema",
         "description": "Retrieve the festivals schema with structure and examples",
         "operationId": "getFestivals",
+        "security": [],
         "responses": {
           "200": {
             "description": "Successfully retrieved festivals schema",
@@ -62,11 +42,38 @@
         }
       }
     },
+    "/notice": {
+      "get": {
+        "summary": "Get notice schema",
+        "description": "Retrieve the notice schema with structure and examples",
+        "operationId": "getNotice",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved notice schema",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notice"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Schema not found"
+          }
+        }
+      }
+    },
     "/schemas": {
       "get": {
         "summary": "List all schemas",
         "description": "Retrieve all available schemas with their structure and examples",
         "operationId": "listAllSchemas",
+        "security": [],
         "responses": {
           "200": {
             "description": "Successfully retrieved all schemas",
@@ -75,11 +82,11 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "notice": {
-                      "$ref": "#/components/schemas/notice"
-                    },
                     "festivals": {
                       "$ref": "#/components/schemas/festivals"
+                    },
+                    "notice": {
+                      "$ref": "#/components/schemas/notice"
                     }
                   }
                 }
@@ -95,109 +102,10 @@
   },
   "components": {
     "schemas": {
-      "notice": {
-        "type": "object",
-        "description": "Schema for notice",
-        "examples": {
-          "noticeList": [
-            {
-              "title": "Card Title",
-              "description": "Card description goes here.",
-              "imageUrl": "https://example.com/image.jpg",
-              "buttons": [
-                {
-                  "type": "CTA",
-                  "text": "Learn More",
-                  "url": "https://example.com/learn"
-                },
-                {
-                  "type": "SHARE",
-                  "url": "https://example.com/share"
-                }
-              ]
-            },
-            {
-              "title": "Card with Feedback",
-              "description": "Feedback example.",
-              "imageUrl": "https://example.com/image2.jpg",
-              "buttons": [
-                {
-                  "type": "FEEDBACK"
-                }
-              ]
-            },
-            {
-              "title": "Card with Social",
-              "description": "Social example.",
-              "imageUrl": "https://example.com/image3.jpg",
-              "buttons": [
-                {
-                  "type": "SOCIAL"
-                }
-              ]
-            },
-            {
-              "title": "Card Title",
-              "description": "Card description goes here.",
-              "imageUrl": "https://example.com/image.jpg",
-              "buttons": [
-                {
-                  "type": "CTA",
-                  "text": "Learn More",
-                  "url": "https://example.com/learn"
-                }
-              ]
-            },
-            {
-              "title": "Card Title",
-              "description": "Card description goes here.",
-              "imageUrl": "https://example.com/image.jpg"
-            }
-          ]
-        },
-        "properties": {
-          "noticeList": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "imageUrl": {
-                  "type": "string",
-                  "format": "uri"
-                },
-                "buttons": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "type": {
-                        "type": "string"
-                      },
-                      "text": {
-                        "type": "string"
-                      },
-                      "url": {
-                        "type": "string",
-                        "format": "uri"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
       "festivals": {
         "type": "object",
         "description": "Schema for festivals",
-        "examples": {
+        "example": {
           "confirmedDates": [
             {
               "type": "CHRISTMAS",
@@ -738,6 +646,105 @@
                 },
                 "greeting": {
                   "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "notice": {
+        "type": "object",
+        "description": "Schema for notice",
+        "example": {
+          "noticeList": [
+            {
+              "title": "Card Title",
+              "description": "Card description goes here.",
+              "imageUrl": "https://example.com/image.jpg",
+              "buttons": [
+                {
+                  "type": "CTA",
+                  "text": "Learn More",
+                  "url": "https://example.com/learn"
+                },
+                {
+                  "type": "SHARE",
+                  "url": "https://example.com/share"
+                }
+              ]
+            },
+            {
+              "title": "Card with Feedback",
+              "description": "Feedback example.",
+              "imageUrl": "https://example.com/image2.jpg",
+              "buttons": [
+                {
+                  "type": "FEEDBACK"
+                }
+              ]
+            },
+            {
+              "title": "Card with Social",
+              "description": "Social example.",
+              "imageUrl": "https://example.com/image3.jpg",
+              "buttons": [
+                {
+                  "type": "SOCIAL"
+                }
+              ]
+            },
+            {
+              "title": "Card Title",
+              "description": "Card description goes here.",
+              "imageUrl": "https://example.com/image.jpg",
+              "buttons": [
+                {
+                  "type": "CTA",
+                  "text": "Learn More",
+                  "url": "https://example.com/learn"
+                }
+              ]
+            },
+            {
+              "title": "Card Title",
+              "description": "Card description goes here.",
+              "imageUrl": "https://example.com/image.jpg"
+            }
+          ]
+        },
+        "properties": {
+          "noticeList": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "imageUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "buttons": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    }
+                  }
                 }
               }
             }
