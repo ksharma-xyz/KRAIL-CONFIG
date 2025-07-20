@@ -12,7 +12,12 @@ const YAML = require("yaml");
   const paths = {};
 
   for (const file of schemaFiles) {
-    const name = path.basename(file, ".json");
+    const relativePath = path.relative("src", file);
+    const folderName = path.dirname(relativePath);
+
+    // Use folder name as API name, fallback to filename if in root
+    const name = folderName === "." ? path.basename(file, ".json") : folderName;
+
     schemaNames.push(name);
     const raw = fs.readFileSync(file, "utf8");
     const jsonSchema = JSON.parse(raw);
@@ -148,7 +153,7 @@ const YAML = require("yaml");
               schema: {
                 type: "object",
                 properties: Object.fromEntries(
-                  schemaNames.map(name => [
+                  [...new Set(schemaNames)].map(name => [
                     name,
                     { $ref: `#/components/schemas/${name}` }
                   ])
@@ -190,6 +195,6 @@ const YAML = require("yaml");
   fs.writeFileSync(path.join(outputDir, "openapi.json"), JSON.stringify(openapi, null, 2));
 
   console.log("✅ openapi.yaml and openapi.json generated at root and copied to docs/");
-  console.log(`📋 Generated schemas: ${schemaNames.join(', ')}`);
+  console.log(`📋 Generated schemas: ${[...new Set(schemaNames)].join(', ')}`);
   console.log(`🔗 Available endpoints: ${Object.keys(paths).join(', ')}`);
 })();
