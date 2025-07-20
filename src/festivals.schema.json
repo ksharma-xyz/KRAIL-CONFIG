@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "required": ["confirmedDates"],
+  "properties": {
+    "confirmedDates": {
+      "type": "array",
+      "description": "List of festivals with fixed dates",
+      "items": {
+        "type": "object",
+        "required": ["type", "month", "day", "greeting"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Festival type identifier"
+          },
+          "month": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12,
+            "description": "Month (1-12)"
+          },
+          "day": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 31,
+            "description": "Day of month (1-31)"
+          },
+          "emojiList": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of emojis"
+          },
+          "greeting": {
+            "type": "string",
+            "description": "Greeting message"
+          }
+        }
+      }
+    },
+    "variableDates": {
+      "type": "array",
+      "description": "List of festivals with variable dates",
+      "items": {
+        "type": "object",
+        "required": ["type", "startDate", "endDate", "greeting"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Festival type identifier"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Start date"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "description": "End date"
+          },
+          "emojiList": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of emojis"
+          },
+          "greeting": {
+            "type": "string",
+            "description": "Greeting message"
+          }
+        }
+      }
+    }
+  }
+}

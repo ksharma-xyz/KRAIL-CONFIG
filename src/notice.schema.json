@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "required": ["noticeList"],
+  "properties": {
+    "noticeList": {
+      "type": "array",
+      "description": "List of notice items",
+      "items": {
+        "type": "object",
+        "required": ["title", "description", "imageUrl"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Notice title"
+          },
+          "description": {
+            "type": "string",
+            "description": "Notice description"
+          },
+          "imageUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Image URL"
+          },
+          "buttons": {
+            "type": "array",
+            "description": "action buttons",
+            "items": {
+              "type": "object",
+              "required": ["type"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["CTA", "SHARE", "FEEDBACK", "SOCIAL"],
+                  "description": "Button type"
+                },
+                "text": {
+                  "type": "string",
+                  "description": "Button text (required for CTA)"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "Button URL (required for CTA and SHARE)"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

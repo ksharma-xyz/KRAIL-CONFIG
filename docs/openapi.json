@@ -104,6 +104,93 @@
     "schemas": {
       "festivals": {
         "type": "object",
+        "required": [
+          "confirmedDates"
+        ],
+        "properties": {
+          "confirmedDates": {
+            "type": "array",
+            "description": "List of festivals with fixed dates",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "month",
+                "day",
+                "greeting"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Festival type identifier"
+                },
+                "month": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 12,
+                  "description": "Month (1-12)"
+                },
+                "day": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 31,
+                  "description": "Day of month (1-31)"
+                },
+                "emojiList": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "List of emojis"
+                },
+                "greeting": {
+                  "type": "string",
+                  "description": "Greeting message"
+                }
+              }
+            }
+          },
+          "variableDates": {
+            "type": "array",
+            "description": "List of festivals with variable dates",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "startDate",
+                "endDate",
+                "greeting"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Festival type identifier"
+                },
+                "startDate": {
+                  "type": "string",
+                  "format": "date",
+                  "description": "Start date"
+                },
+                "endDate": {
+                  "type": "string",
+                  "format": "date",
+                  "description": "End date"
+                },
+                "emojiList": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "List of emojis"
+                },
+                "greeting": {
+                  "type": "string",
+                  "description": "Greeting message"
+                }
+              }
+            }
+          }
+        },
         "description": "Schema for festivals",
         "example": {
           "confirmedDates": [
@@ -594,66 +681,73 @@
               "greeting": "Reconciliation Week"
             }
           ]
-        },
-        "properties": {
-          "confirmedDates": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "month": {
-                  "type": "integer"
-                },
-                "day": {
-                  "type": "integer"
-                },
-                "emojiList": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "greeting": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "variableDates": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "startDate": {
-                  "type": "string",
-                  "format": "date"
-                },
-                "endDate": {
-                  "type": "string",
-                  "format": "date"
-                },
-                "emojiList": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "greeting": {
-                  "type": "string"
-                }
-              }
-            }
-          }
         }
       },
       "notice": {
         "type": "object",
+        "required": [
+          "noticeList"
+        ],
+        "properties": {
+          "noticeList": {
+            "type": "array",
+            "description": "List of notice items",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "description",
+                "imageUrl"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "description": "Notice title"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Notice description"
+                },
+                "imageUrl": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "Image URL"
+                },
+                "buttons": {
+                  "type": "array",
+                  "description": "action buttons",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "type"
+                    ],
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "CTA",
+                          "SHARE",
+                          "FEEDBACK",
+                          "SOCIAL"
+                        ],
+                        "description": "Button type"
+                      },
+                      "text": {
+                        "type": "string",
+                        "description": "Button text (required for CTA)"
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri",
+                        "description": "Button URL (required for CTA and SHARE)"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "description": "Schema for notice",
         "example": {
           "noticeList": [
@@ -711,44 +805,6 @@
               "imageUrl": "https://example.com/image.jpg"
             }
           ]
-        },
-        "properties": {
-          "noticeList": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "imageUrl": {
-                  "type": "string",
-                  "format": "uri"
-                },
-                "buttons": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "type": {
-                        "type": "string"
-                      },
-                      "text": {
-                        "type": "string"
-                      },
-                      "url": {
-                        "type": "string",
-                        "format": "uri"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
         }
       }
     }

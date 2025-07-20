@@ -5,105 +5,65 @@ const convert = require("@openapi-contrib/json-schema-to-openapi-schema").defaul
 const YAML = require("yaml");
 
 (async () => {
-  const schemaFiles = await glob("src/**/*.json");
+  // Find all schema files
+  const schemaFiles = await glob("src/**/*.schema.json");
+  // Find all example data files
+  const dataFiles = await glob("src/**/*.json", { ignore: ["**/*.schema.json"] });
+
   const components = { schemas: {} };
   const schemaNames = [];
   const paths = {};
 
-  for (const file of schemaFiles) {
-    const relativePath = path.relative("src", file);
-    const folderName = path.dirname(relativePath);
-    const name = folderName === "." ? path.basename(file, ".json") : folderName;
+  for (const schemaFile of schemaFiles) {
+    const relativePath = path.relative("src", schemaFile);
+    const name = path.basename(schemaFile, ".schema.json");
 
     schemaNames.push(name);
-    const raw = fs.readFileSync(file, "utf8");
-    const jsonSchema = JSON.parse(raw);
 
     try {
+      // Read schema definition
+      const schemaRaw = fs.readFileSync(schemaFile, "utf8");
+      const jsonSchema = JSON.parse(schemaRaw);
+
+      // Convert to OpenAPI schema
       const openapiSchema = await convert(jsonSchema);
-      const cleanSchema = { ...openapiSchema };
-      const examples = {};
 
-      Object.keys(cleanSchema).forEach(key => {
-        if (key.startsWith('x-')) {
-          const exampleKey = key.replace('x-', '');
-          examples[exampleKey] = cleanSchema[key];
-          delete cleanSchema[key];
-        }
-      });
+      // Look for corresponding data file for examples
+      const dataFile = dataFiles.find(file =>
+        path.basename(file, ".json") === name
+      );
 
-      if (Object.keys(examples).length > 0) {
-        components.schemas[name] = {
-          type: 'object',
-          description: `Schema for ${name}`,
-          example: examples, // Changed from 'examples' to 'example'
-          properties: {
-            ...(examples.confirmedDates && {
-              confirmedDates: {
-                type: 'array',
-                items: {
-                  type: 'object',
-                  properties: {
-                    type: { type: 'string' },
-                    month: { type: 'integer' },
-                    day: { type: 'integer' },
-                    emojiList: { type: 'array', items: { type: 'string' } },
-                    greeting: { type: 'string' }
-                  }
-                }
-              }
-            }),
-            ...(examples.variableDates && {
-              variableDates: {
-                type: 'array',
-                items: {
-                  type: 'object',
-                  properties: {
-                    type: { type: 'string' },
-                    startDate: { type: 'string', format: 'date' },
-                    endDate: { type: 'string', format: 'date' },
-                    emojiList: { type: 'array', items: { type: 'string' } },
-                    greeting: { type: 'string' }
-                  }
-                }
-              }
-            }),
-            ...(examples.noticeList && {
-              noticeList: {
-                type: 'array',
-                items: {
-                  type: 'object',
-                  properties: {
-                    title: { type: 'string' },
-                    description: { type: 'string' },
-                    imageUrl: { type: 'string', format: 'uri' },
-                    buttons: {
-                      type: 'array',
-                      items: {
-                        type: 'object',
-                        properties: {
-                          type: { type: 'string' },
-                          text: { type: 'string' },
-                          url: { type: 'string', format: 'uri' }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            })
+      let example = null;
+      if (dataFile) {
+        const dataRaw = fs.readFileSync(dataFile, "utf8");
+        const data = JSON.parse(dataRaw);
+
+        // Extract examples from x- prefixed properties or use entire data
+        const examples = {};
+        Object.keys(data).forEach(key => {
+          if (key.startsWith('x-')) {
+            const exampleKey = key.replace('x-', '');
+            examples[exampleKey] = data[key];
           }
-        };
-      } else {
-        components.schemas[name] = cleanSchema;
+        });
+
+        example = Object.keys(examples).length > 0 ? examples : data;
       }
 
+      // Create schema with examples
+      components.schemas[name] = {
+        ...openapiSchema,
+        description: `Schema for ${name}`,
+        ...(example && { example })
+      };
+
+      // Create API endpoint
       paths[`/${name}`] = {
         get: {
           summary: `Get ${name} schema`,
           description: `Retrieve the ${name} schema with structure and examples`,
           operationId: `get${name.charAt(0).toUpperCase() + name.slice(1)}`,
-          security: [], // Added security (empty array means no auth required)
+          security: [],
           responses: {
             "200": {
               description: `Successfully retrieved ${name} schema`,
@@ -126,16 +86,17 @@ const YAML = require("yaml");
       };
 
     } catch (e) {
-      console.error(`❌ Failed to convert ${file}:`, e.message);
+      console.error(`❌ Failed to process ${schemaFile}:`, e.message);
     }
   }
 
+  // Add schemas listing endpoint
   paths["/schemas"] = {
     get: {
       summary: "List all schemas",
       description: "Retrieve all available schemas with their structure and examples",
       operationId: "listAllSchemas",
-      security: [], // Added security
+      security: [],
       responses: {
         "200": {
           description: "Successfully retrieved all schemas",
@@ -166,7 +127,7 @@ const YAML = require("yaml");
       title: "KRAIL-CONFIG Schema API",
       version: "1.0.0",
       description: "API for accessing KRAIL-CONFIG schemas including festivals and notices. Each schema type has its own endpoint for better organization.",
-      license: { // Added license field
+      license: {
         name: "Apache 2.0",
         url: "https://www.apache.org/licenses/LICENSE-2.0"
       }
@@ -181,6 +142,7 @@ const YAML = require("yaml");
     components,
   };
 
+  // Write files
   fs.writeFileSync("openapi.yaml", YAML.stringify(openapi));
   fs.writeFileSync("openapi.json", JSON.stringify(openapi, null, 2));
 
