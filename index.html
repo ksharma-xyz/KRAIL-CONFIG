@@ -6,10 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body { margin: 0; }
+        .nav-bar {
+            background: #1f2937;
+            padding: 1rem;
+            text-align: center;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            background: #374151;
+        }
+        .nav-bar a:hover {
+            background: #4b5563;
+        }
+        .nav-bar a.active {
+            background: #059669;
+        }
     </style>
 </head>
 <body>
-<redoc spec-url="https://ksharma-xyz.github.io/KRAIL-CONFIG/openapi.yaml"></redoc>
+<div class="nav-bar">
+    <a href="index.html" class="active">Redoc</a>
+    <a href="swagger.html">Swagger UI</a>
+</div>
+<redoc spec-url="./openapi.yaml"></redoc>
 <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
 </body>
 </html>
