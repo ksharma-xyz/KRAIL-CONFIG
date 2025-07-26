@@ -7,50 +7,72 @@ https://ksharma-xyz.github.io/KRAIL-CONFIG/
 
 ---
 
-## Approach
+## How to add new configuration schema?
 
-- Convert JSON Schema to OpenAPI.
-- Generate static HTML docs (using Redoc CLI).
-- Deploy to GitHub Pages (via GitHub Actions).
+### Step-by-Step Process
 
-## Validating YAML
+After adding a new JSON file to the `src/` folder (e.g., `src/park_ride_facilities.json`), follow these steps:
 
-To validate the OpenAPI YAML file, you can use the Redocly CLI tool. First, install it globally if you haven't already:
+1. Generate the corresponding schema file
 
 ```bash
-npm install -g @redocly/cli
+node scripts/generate-schema.cjs
 ```
 
-Then, run the following command to lint the OpenAPI spec:
+Why: This script automatically creates a .schema.json file from your JSON data file. It analyzes the structure and data
+types to generate proper validation rules.
 
-```bash
-redocly lint docs/openapi.yaml
-````
+2. Generate the OpenAPI specification
 
-## What’s in this repo?
+`node scripts/generate-openapi.cjs`
 
-- `src/` — Folder containing JSON schema files (`*.schema.json`) describing configuration data.
-- `scripts/generate-openapi.cjs` — Node.js script that converts JSON schemas into a combined OpenAPI 3.0 spec (
-  `openapi.yaml` and `openapi.json`).
-- `docs/` — Folder containing generated OpenAPI specs and documentation assets (served by GitHub Pages).
-- `.github/workflows/generate-openapi.yml` — GitHub Actions workflow to automatically regenerate and commit the OpenAPI
-  spec on schema changes.
+Why: This converts all JSON schemas in src/ into a unified OpenAPI 3.0 specification. It creates both docs/openapi.yaml
+and docs/openapi.json files that define your API endpoints and data structures.
+
+3. Validate the generated specification
+
+`redocly lint docs/openapi.yaml`
+
+Why: This checks for any syntax errors, missing required fields, or OpenAPI specification violations. It ensures your
+documentation will render correctly and follows best practices.
+
+4. Build the documentation (optional for local preview)
+   Why: Generates static HTML documentation files using Redoc. This step is optional locally since GitHub Actions will
+   do this automatically when you push.
+
+5. Commit and deploy
+
+```
+git add .
+git commit -m "Add new configuration schema for [your feature]"
+git push origin main
+```
+
+Why: Pushes your changes to trigger the GitHub Actions workflow, which will automatically regenerate docs and deploy to
+GitHub Pages.
+
+### What happens automatically
+The GitHub Actions workflow (.github/workflows/schema-docs.yml) will:
+
+- Detect changes to JSON or schema files
+- Regenerate the OpenAPI specification
+- Build fresh documentation
+- Deploy to GitHub Pages at https://ksharma-xyz.github.io/KRAIL-CONFIG/
 
 ---
 
-## Getting Started
+## Quick Setup
+
+### Prerequisites
+- Node.js (v16+) and npm
+- Git
+
+### Installation
+
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v16 or higher recommended)
-- `npm` (comes with Node.js)
-- Git
-
----
-
-### Installation
-
-Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/yourusername/KRAIL-CONFIG.git
@@ -58,58 +80,23 @@ cd KRAIL-CONFIG
 npm install
 ```
 
-## Generating OpenAPI docs locally
-
-To generate the OpenAPI spec files (openapi.yaml and openapi.json) from all JSON schemas:
+#### Redocly CLI Installation
 
 ```bash
-npm run generate:openapi
+npm install -g @redocly/cli
 ```
 
-This will:
 
-- Read all .schema.json files under src/
-- Convert them to OpenAPI schema components
-- Output openapi.yaml and openapi.json files inside the docs/ folder
+### Repository Structure
 
-## Viewing the documentation
-
-The generated OpenAPI spec can be visualized using:
-
-- Swagger Editor: Paste the contents of docs/openapi.yaml or docs/openapi.json.
-- Local Swagger UI or Redoc server.
-- GitHub Pages, if you have the docs/ folder configured as your GitHub Pages source.
-
-## Automating generation on push
-
-The GitHub Actions workflow .github/workflows/generate-openapi.yml automatically:
-
-- Runs on pushes to the main branch.
-- Regenerates openapi.yaml and openapi.json whenever JSON schema files or the generator script changes.
-- Commits and pushes updated OpenAPI specs to the docs/ folder.
-
-This keeps the OpenAPI docs up to date with minimal manual work.
-
-## Customization
-
-Add or remove JSON schemas in the src/ folder to modify the API schema.
-
-## Development Tips
-
-- Keep your JSON schema files under src/ with a .schema.json extension.
-- Use JSON Schema Draft-07 compatible syntax.
-- Run npm run generate:openapi after schema edits to preview changes locally before pushing.
-
-## Troubleshooting
-
-- If you get missing module errors (yaml, fast-glob, etc.), run:
-
-```bash
-npm install
+```
+src/                 # JSON data and schema files
+scripts/             # Generation scripts
+docs/                # Generated OpenAPI specs (GitHub Pages)
+.github/workflows/   # Auto-deployment workflow
 ```
 
-- Ensure node_modules/ is in .gitignore and not committed.
-- If GitHub Pages fails to serve docs, confirm your repository’s Pages source is set to the /docs folder.
+---
 
 ## License
 
