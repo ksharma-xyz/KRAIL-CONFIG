@@ -1,0 +1,27 @@
+{
+  "type": "array",
+  "description": "List of park and ride facilities with their associated stops",
+  "items": {
+    "type": "object",
+    "required": ["stopId", "parkRideFacilityId", "parkRideName"],
+    "properties": {
+      "stopId": {
+        "type": "string",
+        "description": "Unique identifier for the transit stop",
+        "pattern": "^[0-9]+$"
+      },
+      "parkRideFacilityId": {
+        "type": "string",
+        "description": "Unique identifier for the park and ride facility",
+        "pattern": "^[0-9]+$"
+      },
+      "parkRideName": {
+        "type": "string",
+        "description": "Display name of the park and ride facility",
+        "minLength": 1
+      }
+    }
+  },
+  "minItems": 1,
+  "uniqueItems": true
+}
