@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Cta only card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": "2025-12-20",
+    "endDate": "2025-12-31",
+    "disclaimer": null,
+    "imageList": ["https://images.unsplash.com/photo-1749751234397-41ee8a7887c2"],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Click Me",
+        "url": "https://example.com/cta"
+      }
+    ]
+  },
+  {
+    "title": "No Buttons Card Title",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": null,
+    "endDate": null,
+    "disclaimer": "Image Credit: Unsplash",
+    "imageList": ["https://plus.unsplash.com/premium_photo-1752367225760-34f565f0720f"],
+    "type": "Events",
+    "buttons": []
+  },
+  {
+    "title": "App Social Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": null,
+    "endDate": null,
+    "disclaimer": null,
+    "imageList": ["https://plus.unsplash.com/premium_photo-1752624906994-d94727d34c9b"],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "AppSocial"
+      }
+    ]
+  },
+  {
+    "title": "Partner Social Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": null,
+    "endDate": null,
+    "disclaimer": null,
+    "imageList": ["https://plus.unsplash.com/premium_photo-1752624906994-d94727d34c9b"],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "XYZ Place",
+        "links": [
+          {
+            "type": "Facebook",
+            "url": "https://example.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Share Only Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": null,
+    "endDate": null,
+    "disclaimer": null,
+    "imageList": ["https://plus.unsplash.com/premium_photo-1751906599846-2e31345c8014"],
+    "type": "Kids",
+    "buttons": [
+      {
+        "buttonType": "Share",
+        "shareUrl": "https://example.com/share"
+      }
+    ]
+  },
+  {
+    "title": "Cta + Share Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": null,
+    "endDate": null,
+    "disclaimer": null,
+    "imageList": ["https://images.unsplash.com/photo-1752939124510-e444139e6404"],
+    "type": "Sports",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Click Me",
+        "url": "https://example.com/cta"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "https://example.com/share"
+      }
+    ]
+  },
+  {
+    "title": "Feedback Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "startDate": null,
+    "endDate": null,
+    "disclaimer": null,
+    "imageList": ["https://plus.unsplash.com/premium_photo-1752832756659-4dd7c40f5ae7"],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Feedback",
+        "label": "Feedback",
+        "url": "https://example.com/feedback"
+      }
+    ]
+  }
+]
