@@ -14,29 +14,31 @@ https://ksharma-xyz.github.io/KRAIL-CONFIG/
 After adding a new JSON file to the `src/` folder (e.g., `src/park_ride_facilities.json`), follow these steps:
 
 1. Generate the corresponding schema file
+   ```bash
+   node scripts/generate-schema.cjs
+   ```
 
-```bash
-node scripts/generate-schema.cjs
-```
-
-Why: This script automatically creates a .schema.json file from your JSON data file. It analyzes the structure and data
-types to generate proper validation rules.
+   Why: This script automatically creates a .schema.json file from your JSON data file. It analyzes the structure and
+   data
+   types to generate proper validation rules.
 
 2. Generate the OpenAPI specification
 
-`node scripts/generate-openapi.cjs`
+   `node scripts/generate-openapi.cjs`
 
-Why: This converts all JSON schemas in src/ into a unified OpenAPI 3.0 specification. It creates both docs/openapi.yaml
-and docs/openapi.json files that define your API endpoints and data structures.
+   Why: This converts all JSON schemas in src/ into a unified OpenAPI 3.0 specification. It creates both
+   docs/openapi.yaml
+   and docs/openapi.json files that define your API endpoints and data structures.
 
 3. Validate the generated specification
 
-`redocly lint docs/openapi.yaml`
+   `redocly lint docs/openapi.yaml`
 
-Why: This checks for any syntax errors, missing required fields, or OpenAPI specification violations. It ensures your
-documentation will render correctly and follows best practices.
+   Why: This checks for any syntax errors, missing required fields, or OpenAPI specification violations. It ensures your
+   documentation will render correctly and follows best practices.
 
 4. Build the documentation (optional for local preview)
+
    Why: Generates static HTML documentation files using Redoc. This step is optional locally since GitHub Actions will
    do this automatically when you push.
 
@@ -52,6 +54,7 @@ Why: Pushes your changes to trigger the GitHub Actions workflow, which will auto
 GitHub Pages.
 
 ### What happens automatically
+
 The GitHub Actions workflow (.github/workflows/schema-docs.yml) will:
 
 - Detect changes to JSON or schema files
@@ -64,11 +67,11 @@ The GitHub Actions workflow (.github/workflows/schema-docs.yml) will:
 ## Quick Setup
 
 ### Prerequisites
+
 - Node.js (v16+) and npm
 - Git
 
 ### Installation
-
 
 ### Prerequisites
 
@@ -85,7 +88,6 @@ npm install
 ```bash
 npm install -g @redocly/cli
 ```
-
 
 ### Repository Structure
 
