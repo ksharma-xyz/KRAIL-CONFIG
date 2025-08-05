@@ -4,7 +4,7 @@
     "title": "Secret Bakery Everyone’s Talking About",
     "description": "AP Quay by All Purpose Bakery is making waves with flaky croissants, snacks, and wine from 5pm in Circular Quay.",
     "imageList": [
-      "https://i.imgur.com/m9kVyqt.png"
+      "https://i.imgur.com/EuUxtgY.png"
     ],
     "type": "Food",
     "buttons": [
@@ -70,16 +70,16 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Mogu Mogu Café is serving up gourmet Japanese onigiri in Surry Hills – 12 amazing flavours! Found it via the KRAIL app – your go-to for Sydney’s best food and finds. #KRAILapp"
+        "shareUrl": "Mogu Mogu Café (https://www.instagram.com/mogumogu_sydney) is serving up gourmet Japanese onigiri in Surry Hills – 12 amazing flavours! \n\nFound it via the KRAIL App – your go-to for Sydney’s best food and finds. \n\n#KRAILApp https://krail.app"
       }
     ]
   },
   {
     "cardId": "card_taguan_1",
-    "title": "Filipino Brunch is Sydney’s Next Food Trend",
+    "title": "Filipino Brunch – Sydney’s Next Food Trend",
     "description": "Taguan in Barangaroo dishes up Filipino brunch classics like ube lattes, beef pares toasties, and family-recipe adobo with garlic rice.",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/RyFpUbt.png"
     ],
     "type": "Food",
     "buttons": [
@@ -129,23 +129,19 @@
     "title": "Harbour Bridge - Climb & Views",
     "description": "Climb for unbeatable 360° views of Sydney. Choose from dawn, day or twilight climbs. No experience needed, guides included.",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/rj4C6DY.png"
     ],
     "type": "Travel",
+    "disclaimer": "Image Credit: @contiki",
     "buttons": [
       {
-        "buttonType": "PartnerSocial",
-        "socialPartnerName": "Harbour Bridge Climb",
-        "links": [
-          {
-            "type": "Instagram",
-            "url": "YOUR_URL_HERE"
-          }
-        ]
+        "buttonType": "Cta",
+        "label": "Book Now",
+        "url": "https://www.bridgeclimb.com/"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Climb the Sydney Harbour Bridge (YOUR_URL_HERE) for sweeping skyline views – bucket list worthy!\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Climb the Sydney Harbour Bridge (https://www.bridgeclimb.com/) for sweeping skyline views – bucket list worthy!\n\nInstagram - https://www.instagram.com/bridgeclimb/\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
       }
     ]
   },
@@ -153,24 +149,20 @@
     "cardId": "card_bondi_walk_1",
     "title": "Bondi to Coogee - Coastal Walk",
     "description": "A 6km walk with ocean views, cliffs and beaches. Visit late Oct–Nov for Sculpture by the Sea. Easy and scenic.",
+    "disclaimer": "Image Credit: @go4theglobe",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/FPItSlJ.png"
     ],
     "type": "Travel",
     "buttons": [
       {
-        "buttonType": "PartnerSocial",
-        "socialPartnerName": "Bondi to Coogee Walk",
-        "links": [
-          {
-            "type": "Instagram",
-            "url": "YOUR_URL_HERE"
-          }
-        ]
+        "buttonType": "Cta",
+        "label": "Explore",
+        "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Walk the Bondi to Coogee trail (YOUR_URL_HERE) – beaches, cliffs and even art in October!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Walk the Bondi to Coogee trail (https://www.alltrails.com/trail/australia/new-south-wales/bondi-beach-to-coogee-beach-walk) – beaches, cliffs and even art in October!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
       }
     ]
   },
@@ -179,7 +171,7 @@
     "title": "Taronga Zoo - Harbour Views & Wildlife",
     "description": "See koalas, kangaroos, giraffes and more. Catch animal shows, feed wildlife, and enjoy stunning views of Sydney Harbour.",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/WKYZf39.png"
     ],
     "type": "Travel",
     "buttons": [
@@ -189,13 +181,13 @@
         "links": [
           {
             "type": "Instagram",
-            "url": "YOUR_URL_HERE"
+            "url": "https://www.instagram.com/tarongazoo/"
           }
         ]
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Taronga Zoo (YOUR_URL_HERE) has animals, harbour views and ferry access from Circular Quay. Perfect day trip!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Taronga Zoo (https://www.instagram.com/tarongazoo/) has animals, harbour views and ferry access from Circular Quay. Perfect day trip!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
       }
     ]
   },
@@ -204,9 +196,10 @@
     "title": "Whale Watching - Winter Spectacle",
     "description": "See humpback whales breach from May to September. Cruises depart from Circular Quay and King Street Wharf.",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/QPlfe6D.png"
     ],
     "type": "Travel",
+    "disclaimer": "Image Credit: @daily_salt",
     "buttons": [
       {
         "buttonType": "PartnerSocial",
@@ -225,6 +218,7 @@
     ]
   },
   {
+    "cardId": "card_3",
     "title": "Follow KRAIL",
     "description": "Stay updated with the latest from KRAIL.",
     "imageList": [
@@ -238,10 +232,11 @@
     ]
   },
   {
-    "title": "Partner Social Card",
-    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "cardId": "card_4",
+    "title": "Opal Fare Changes 2025",
+    "description": "Opal fares are changing in 2025. Check out the latest updates and plan your travel accordingly.",
     "imageList": [
-      "https://plus.unsplash.com/premium_photo-1752624906994-d94727d34c9b"
+      "https://i.imgur.com/kpd99ri.png"
     ],
     "type": "Events",
     "buttons": [
@@ -258,12 +253,13 @@
     ]
   },
   {
-    "title": "Share Only Card",
-    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "cardId": "card_5",
+    "title": "New Park & Ride",
+    "description": "Park & Ride is a convenient way to travel in NSW. Find out more about the facilities available.",
     "imageList": [
-      "https://plus.unsplash.com/premium_photo-1751906599846-2e31345c8014"
+      "https://i.imgur.com/vMbFo2W.png"
     ],
-    "type": "Events",
+    "type": "Food",
     "buttons": [
       {
         "buttonType": "Share",
@@ -272,6 +268,7 @@
     ]
   },
   {
+    "cardId": "card_6",
     "title": "Cta + Share Card",
     "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
     "imageList": [
@@ -287,22 +284,6 @@
       {
         "buttonType": "Share",
         "shareUrl": "https://example.com/share"
-      }
-    ]
-  },
-  {
-    "title": "Feedback Card",
-    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
-    "imageList": [
-      "https://plus.unsplash.com/premium_photo-1752832756659-4dd7c40f5ae7"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Feedback",
-        "feedbackId": "feedback-1",
-        "label": "Feedback",
-        "url": "https://example.com/feedback"
       }
     ]
   }
