@@ -1,0 +1,309 @@
+[
+  {
+    "cardId": "card_ap_bakery_1",
+    "title": "Secret Bakery Everyone’s Talking About",
+    "description": "AP Quay by All Purpose Bakery is making waves with flaky croissants, snacks, and wine from 5pm in Circular Quay.",
+    "imageList": [
+      "https://i.imgur.com/m9kVyqt.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "AP Bakery",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/a.p.bread/"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Check out AP Quay by All Purpose Bakery (https://www.instagram.com/a.p.bread/) — flaky croissants, bread snacks, and great wine in Circular Quay! Found it on the KRAIL app — your guide to the best food, travel, and events in Sydney. #KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_superfreak_1",
+    "title": "Marrickville’s Coolest New Cafe: Superfreak",
+    "description": "Next to Scout Pilates, Superfreak blends top-tier cafe bites with standout design and vegetarian options in Marrickville.",
+    "imageList": [
+      "https://i.imgur.com/YUEmVX3.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Superfreak",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/superfreak.syd/?hl=en"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Superfreak in Marrickville has it all – killer cafe food, lush interiors, and serious design vibes. \n\nFound it on the KRAIL app – discover Sydney's best eats, events, and hidden gems. \n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_mogumogu_1",
+    "title": "Onigiri Heaven Right Here!",
+    "description": "Mogu Mogu Café in Surry Hills serves 12 gourmet Japanese rice ball flavours—perfect for a quick, delicious grab-and-go lunch.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Mogu Mogu Café",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/mogumogu_sydney"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Mogu Mogu Café is serving up gourmet Japanese onigiri in Surry Hills – 12 amazing flavours! Found it via the KRAIL app – your go-to for Sydney’s best food and finds. #KRAILapp"
+      }
+    ]
+  },
+  {
+    "cardId": "card_taguan_1",
+    "title": "Filipino Brunch is Sydney’s Next Food Trend",
+    "description": "Taguan in Barangaroo dishes up Filipino brunch classics like ube lattes, beef pares toasties, and family-recipe adobo with garlic rice.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Taguan Café",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/taguancafe.syd/?hl=en"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Taguan Café (https://www.instagram.com/taguancafe.syd) is putting a Filipino twist on brunch in Barangaroo – think ube lattes, banana-ketchup rolls, and slow-cooked beef toasties!\n\nFound it via the KRAIL App – your go-to for Sydney’s best food and finds.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_opera_house_1",
+    "title": "Sydney Opera House - Iconic Stop",
+    "description": "Tour the UNESCO-listed marvel or catch a live show. Take the guided audio tour for deep history and behind-the-scenes stories.",
+    "imageList": [
+      "https://i.imgur.com/0SKbPt5.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Sydney Opera House",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/sydneyoperahouse/"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Sydney Opera House (https://www.instagram.com/sydneyoperahouse/) is a must-visit for architecture and performance lovers! \n\nDiscovered via KRAIL App – Sydney’s best food, travel and events.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_harbour_bridge_1",
+    "title": "Harbour Bridge - Climb & Views",
+    "description": "Climb for unbeatable 360° views of Sydney. Choose from dawn, day or twilight climbs. No experience needed, guides included.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Harbour Bridge Climb",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "YOUR_URL_HERE"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Climb the Sydney Harbour Bridge (YOUR_URL_HERE) for sweeping skyline views – bucket list worthy!\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_bondi_walk_1",
+    "title": "Bondi to Coogee - Coastal Walk",
+    "description": "A 6km walk with ocean views, cliffs and beaches. Visit late Oct–Nov for Sculpture by the Sea. Easy and scenic.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Bondi to Coogee Walk",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "YOUR_URL_HERE"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Walk the Bondi to Coogee trail (YOUR_URL_HERE) – beaches, cliffs and even art in October!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_taronga_zoo_1",
+    "title": "Taronga Zoo - Harbour Views & Wildlife",
+    "description": "See koalas, kangaroos, giraffes and more. Catch animal shows, feed wildlife, and enjoy stunning views of Sydney Harbour.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Taronga Zoo",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "YOUR_URL_HERE"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Taronga Zoo (YOUR_URL_HERE) has animals, harbour views and ferry access from Circular Quay. Perfect day trip!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_whale_watch_1",
+    "title": "Whale Watching - Winter Spectacle",
+    "description": "See humpback whales breach from May to September. Cruises depart from Circular Quay and King Street Wharf.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Whale Watching Sydney",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "YOUR_URL_HERE"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Watch whales off Sydney’s coast (YOUR_URL_HERE) during the migration season – an epic winter experience!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "title": "Follow KRAIL",
+    "description": "Stay updated with the latest from KRAIL.",
+    "imageList": [
+      "https://i.imgur.com/xFahu5j.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "AppSocial"
+      }
+    ]
+  },
+  {
+    "title": "Partner Social Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "imageList": [
+      "https://plus.unsplash.com/premium_photo-1752624906994-d94727d34c9b"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "XYZ Place",
+        "links": [
+          {
+            "type": "Facebook",
+            "url": "https://example.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Share Only Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "imageList": [
+      "https://plus.unsplash.com/premium_photo-1751906599846-2e31345c8014"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Share",
+        "shareUrl": "https://example.com/share"
+      }
+    ]
+  },
+  {
+    "title": "Cta + Share Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "imageList": [
+      "https://images.unsplash.com/photo-1752939124510-e444139e6404"
+    ],
+    "type": "Sports",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Click Me",
+        "url": "https://example.com/cta"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "https://example.com/share"
+      }
+    ]
+  },
+  {
+    "title": "Feedback Card",
+    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
+    "imageList": [
+      "https://plus.unsplash.com/premium_photo-1752832756659-4dd7c40f5ae7"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Feedback",
+        "feedbackId": "feedback-1",
+        "label": "Feedback",
+        "url": "https://example.com/feedback"
+      }
+    ]
+  }
+]
