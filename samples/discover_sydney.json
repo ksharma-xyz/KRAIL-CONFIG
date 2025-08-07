@@ -218,6 +218,120 @@
     ]
   },
   {
+    "cardId": "card_risingsun_1",
+    "title": "Ramen For Breakfast? It's Here",
+    "description": "Rising Sun Workshop in Newtown blends ramen‑style breakfast with sausage buns and coffee.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Learn more",
+        "url": "https://www.risingsunworkshop.com"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Rising Sun Workshop (https://www.risingsunworkshop.com) blends ramen, izakaya, and bike culture in Newtown. Breakfast ramen is real!\n\nFound via KRAIL App – discover Sydney’s most unique eats.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_malaya_1",
+    "title": "60 Years Strong - The Malaya Stuns",
+    "description": "Sydney’s OG Malaysian fine diner still packs flavour bombs: XO pippies, spice-rich curry, mud crab and a wine list worth sipping through.",
+    "imageList": [
+      "https://i.imgur.com/LvPVlSW.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Reservation",
+        "url": "https://themalaya.com.au/reservations/"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "The Malaya (https://www.themalaya.com.au) has been serving bold Malaysian flavours for over 60 years – XO pippies, iconic curries, and waterfront vibes await.\n\nFound via KRAIL App – your ultimate Sydney food guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_bessies_1",
+    "title": "Fire‑Kissed Feasts at Bessie’s",
+    "description": "Mediterranean share plates from top chefs in a moody Surry Hills space, built around fire and flavour.",
+    "imageList": [
+      "https://i.imgur.com/YOUR_IMAGE_URL.png"
+    ],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/bessies.restaurant/"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Bessie's in Surry Hills (https://www.instagram.com/bessies.restaurant/) brings bold Mediterranean flavours, fire-cooked dishes, and top chefs under one roof.\n\nFound via KRAIL App – discover Sydney’s top eats.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_regina_1",
+    "title": "Three Ways To Pizza Bliss",
+    "description": "Regina in Redfern serves woodfired, deep-pan and fried pizzas with authentic Sicilian flair and Sydney’s only Fazzone oven.",
+    "imageList": [],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/reginalapizzeria/?hl=en"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Regina La Pizzeria in Redfern is where woodfired, padellino and crisp fried pizzas meet Sicilian soul and fire‑kissed technique.\n\nFound via KRAIL App – discover Sydney’s top eats.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_corner75_1",
+    "title": "Sydney’s Hungarian Icon Returns",
+    "description": "Randwick’s beloved Corner 75 is reborn under Sixpenny and Baba’s Place – classic schnitzels, warmth, and Hungarian flair intact.",
+    "imageList": [],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/corner.75/?hl=en"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Corner 75 in Randwick is back – revived by Sixpenny and Baba’s Place with schnitzels, memorabilia and warm Hungarian hospitality.\n\nFound via KRAIL App – explore Sydney’s culinary icons.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_mistergrotto_1",
+    "title": "Mister Grotto - Seafood Cabin Vibes",
+    "description": "Newtown’s nautical 30-seater does whole-fish dishes, tuna sausage snacks, raw plates, and a set menu – all from a Saint Peter alum.",
+    "imageList": [],
+    "type": "Food",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/mistergrotto/?hl=en"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Mister Grotto in Newtown is a seafood lover’s dream. Whole-fish dishes, raw plates, and serious cabin vibes. \n\nDiscovered on KRAIL App – Sydney’s local food radar.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
     "cardId": "card_3",
     "title": "Follow KRAIL",
     "description": "Stay updated with the latest from KRAIL.",
@@ -259,28 +373,8 @@
     "imageList": [
       "https://i.imgur.com/vMbFo2W.png"
     ],
-    "type": "Event",
+    "type": "Travel",
     "buttons": [
-      {
-        "buttonType": "Share",
-        "shareUrl": "https://example.com/share"
-      }
-    ]
-  },
-  {
-    "cardId": "card_6",
-    "title": "Cta + Share Card",
-    "description": "This is a sample description for the Discover Card. It can be used to display additional information.",
-    "imageList": [
-      "https://images.unsplash.com/photo-1752939124510-e444139e6404"
-    ],
-    "type": "Sports",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Click Me",
-        "url": "https://example.com/cta"
-      },
       {
         "buttonType": "Share",
         "shareUrl": "https://example.com/share"
