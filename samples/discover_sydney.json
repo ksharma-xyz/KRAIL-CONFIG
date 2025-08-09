@@ -20,7 +20,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Check out AP Quay by All Purpose Bakery (https://www.instagram.com/a.p.bread/) — flaky croissants, bread snacks, and great wine in Circular Quay! Found it on the KRAIL app — your guide to the best food, travel, and events in Sydney. #KRAILApp https://krail.app"
+        "shareUrl": "Check out AP Quay by All Purpose Bakery (https://www.instagram.com/a.p.bread/) — flaky croissants, bread snacks, and great wine in Circular Quay!"
       }
     ]
   },
@@ -45,7 +45,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Superfreak in Marrickville has it all – killer cafe food, lush interiors, and serious design vibes. \n\nFound it on the KRAIL app – discover Sydney's best eats, events, and hidden gems. \n\n#KRAILApp https://krail.app"
+        "shareUrl": "Superfreak in Marrickville has it all – killer cafe food, lush interiors, and serious design vibes."
       }
     ]
   },
@@ -70,7 +70,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Mogu Mogu Café (https://www.instagram.com/mogumogu_sydney) is serving up gourmet Japanese onigiri in Surry Hills – 12 amazing flavours! \n\nFound it via the KRAIL App – your go-to for Sydney’s best food and finds. \n\n#KRAILApp https://krail.app"
+        "shareUrl": "Mogu Mogu Café (https://www.instagram.com/mogumogu_sydney) is serving up gourmet Japanese onigiri in Surry Hills – 12 amazing flavours!"
       }
     ]
   },
@@ -95,7 +95,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Taguan Café (https://www.instagram.com/taguancafe.syd) is putting a Filipino twist on brunch in Barangaroo – think ube lattes, banana-ketchup rolls, and slow-cooked beef toasties!\n\nFound it via the KRAIL App – your go-to for Sydney’s best food and finds.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Taguan Café (https://www.instagram.com/taguancafe.syd) is putting a Filipino twist on brunch in Barangaroo – think ube lattes, banana-ketchup rolls, and slow-cooked beef toasties!"
       }
     ]
   },
@@ -120,7 +120,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Sydney Opera House (https://www.instagram.com/sydneyoperahouse/) is a must-visit for architecture and performance lovers! \n\nDiscovered via KRAIL App – Sydney’s best food, travel and events.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Sydney Opera House (https://www.instagram.com/sydneyoperahouse/) is a must-visit for architecture and performance lovers!"
       }
     ]
   },
@@ -141,7 +141,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Climb the Sydney Harbour Bridge (https://www.bridgeclimb.com/) for sweeping skyline views – bucket list worthy!\n\nInstagram - https://www.instagram.com/bridgeclimb/\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Climb the Sydney Harbour Bridge (https://www.bridgeclimb.com/) for sweeping skyline views – bucket list worthy!\n\nInstagram - https://www.instagram.com/bridgeclimb/"
       }
     ]
   },
@@ -162,13 +162,13 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Walk the Bondi to Coogee trail (https://www.alltrails.com/trail/australia/new-south-wales/bondi-beach-to-coogee-beach-walk) – beaches, cliffs and even art in October!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Walk the Bondi to Coogee trail (https://www.alltrails.com/trail/australia/new-south-wales/bondi-beach-to-coogee-beach-walk) – beaches, cliffs and even art in October!"
       }
     ]
   },
   {
     "cardId": "card_taronga_zoo_1",
-    "title": "Taronga Zoo - Harbour Views & Wildlife",
+    "title": "Brilliant Zoo With Harbour Skyline Views",
     "description": "See koalas, kangaroos, giraffes and more. Catch animal shows, feed wildlife, and enjoy stunning views of Sydney Harbour.",
     "imageList": [
       "https://i.imgur.com/WKYZf39.png"
@@ -187,7 +187,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Taronga Zoo (https://www.instagram.com/tarongazoo/) has animals, harbour views and ferry access from Circular Quay. Perfect day trip!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Taronga Zoo has animals, harbour views and ferry access from Circular Quay. Perfect day trip!"
       }
     ]
   },
@@ -213,7 +213,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Watch whales off Sydney’s coast (YOUR_URL_HERE) during the migration season – an epic winter experience!\n\nFound via KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Watch whales off Sydney’s coast during the migration season – an epic winter experience!"
       }
     ]
   },
@@ -222,7 +222,7 @@
     "title": "Ramen For Breakfast? It's Here",
     "description": "Rising Sun Workshop in Newtown blends ramen‑style breakfast with sausage buns and coffee.",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/7KKiedm.png"
     ],
     "type": "Food",
     "buttons": [
@@ -233,7 +233,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Rising Sun Workshop (https://www.risingsunworkshop.com) blends ramen, izakaya, and bike culture in Newtown. Breakfast ramen is real!\n\nFound via KRAIL App – discover Sydney’s most unique eats.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Rising Sun Workshop (https://www.risingsunworkshop.com) blends ramen, izakaya, and bike culture in Newtown. Breakfast ramen is real!"
       }
     ]
   },
@@ -242,7 +242,7 @@
     "title": "60 Years Strong - The Malaya Stuns",
     "description": "Sydney’s OG Malaysian fine diner still packs flavour bombs: XO pippies, spice-rich curry, mud crab and a wine list worth sipping through.",
     "imageList": [
-      "https://i.imgur.com/LvPVlSW.png"
+      "https://i.imgur.com/tXLWo2h.png"
     ],
     "type": "Food",
     "buttons": [
@@ -253,7 +253,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "The Malaya (https://www.themalaya.com.au) has been serving bold Malaysian flavours for over 60 years – XO pippies, iconic curries, and waterfront vibes await.\n\nFound via KRAIL App – your ultimate Sydney food guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "The Malaya (https://www.themalaya.com.au) has been serving bold Malaysian flavours for over 60 years – XO pippies, iconic curries, and waterfront vibes await."
       }
     ]
   },
@@ -262,7 +262,7 @@
     "title": "Fire‑Kissed Feasts at Bessie’s",
     "description": "Mediterranean share plates from top chefs in a moody Surry Hills space, built around fire and flavour.",
     "imageList": [
-      "https://i.imgur.com/YOUR_IMAGE_URL.png"
+      "https://i.imgur.com/s3RePhb.png"
     ],
     "type": "Food",
     "buttons": [
@@ -278,7 +278,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Bessie's in Surry Hills (https://www.instagram.com/bessies.restaurant/) brings bold Mediterranean flavours, fire-cooked dishes, and top chefs under one roof.\n\nFound via KRAIL App – discover Sydney’s top eats.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Bessie's in Surry Hills brings bold Mediterranean flavours, fire-cooked dishes, and top chefs under one roof."
       }
     ]
   },
@@ -286,7 +286,9 @@
     "cardId": "card_regina_1",
     "title": "Three Ways To Pizza Bliss",
     "description": "Regina in Redfern serves woodfired, deep-pan and fried pizzas with authentic Sicilian flair and Sydney’s only Fazzone oven.",
-    "imageList": [],
+    "imageList": [
+      "https://i.imgur.com/3i3aJwO.png"
+    ],
     "type": "Food",
     "buttons": [
       {
@@ -295,13 +297,13 @@
         "links": [
           {
             "type": "Instagram",
-            "url": "https://www.instagram.com/reginalapizzeria/?hl=en"
+            "url": "https://www.instagram.com/reginalapizzeria"
           }
         ]
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Regina La Pizzeria in Redfern is where woodfired, padellino and crisp fried pizzas meet Sicilian soul and fire‑kissed technique.\n\nFound via KRAIL App – discover Sydney’s top eats.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Regina La Pizzeria in Redfern is where woodfired, padellino and crisp fried pizzas meet Sicilian soul and fire‑kissed technique."
       }
     ]
   },
@@ -324,7 +326,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Corner 75 in Randwick is back – revived by Sixpenny and Baba’s Place with schnitzels, memorabilia and warm Hungarian hospitality.\n\nFound via KRAIL App – explore Sydney’s culinary icons.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Corner 75 in Randwick is back – revived by Sixpenny and Baba’s Place with schnitzels, memorabilia and warm Hungarian hospitality."
       }
     ]
   },
@@ -528,6 +530,197 @@
     ]
   },
   {
+    "cardId": "card_budget_train_daytrips",
+    "title": "Budget Day Trips by Train",
+    "description": "Visit Katoomba, Kiama, Manly, Olympic Park—cheap, scenic public transport getaways from Sydney.",
+    "imageList": [
+      "https://i.imgur.com/EuUxtgY.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "socialPartnerName": "Weekending",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/weekending.au"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Escape the city with these scenic Sydney day trips—Katoomba, Kiama, Manly, and Olympic Park—all reachable by train or ferry.\n\nOnly on the KRAIL App.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_royal_national_park_train",
+    "title": "Royal National Park - Coastal Hikes",
+    "description": "Train to Otford or Cronulla ferry for seaside bushwalks, hidden beaches, and eucalyptus forest trails.",
+    "imageList": [
+      "https://i.imgur.com/EuUxtgY.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Instagram",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/explore/search/keyword/?q=royal%20national%20park%20sydney"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Discover Royal National Park by train—coastal hikes, hidden beaches, and bushland adventures just outside Sydney.\n\nOnly on the KRAIL App.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_berowra_valley_loop_1",
+    "title": "Berowra Valley Loop Hike by Train",
+    "description": "Scenic bushwalk linking Mount Kuring-Gai and Berowra with Cowan Creek, Waratah Bay, and Appletree Bay views.",
+    "imageList": [
+      "https://i.imgur.com/XXXXXXX.png"
+    ],
+    "type": "Travel",
+    "disclaimer": "Image Credit: NSW National Parks",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Explore",
+        "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/berowra-valley-national-park"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Explore Berowra Valley Loop Hike via train – enjoy Cowan Creek, Waratah Bay, and Appletree Bay.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_palm_beach_1",
+    "title": "Palm Beach & Barrenjoey Lighthouse Walk",
+    "description": "Just 1.5 hours from Wynyard, explore Palm Beach with stunning dual coast views, easy hikes, and a historic cable suspension bridge.",
+    "imageList": [
+      ""
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Learn More",
+        "url": "https://www.sydney.com/destinations/sydney/sydney-north/palm-beach"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Discover Palm Beach and Barrenjoey Lighthouse walk – stunning dual beach views, easy hikes, and picnic spots.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_central_coast_1",
+    "title": "Discover Central Coast Beaches & Nature",
+    "description": "Just under 2 hours from Sydney CBD, explore beaches, national parks, wildlife, markets, and unique adventures on the Central Coast.",
+    "imageList": [
+      ""
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Learn More",
+        "url": "https://www.sydney.com/destinations/central-coast"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Escape to the Central Coast from Sydney – stunning beaches, hiking, wildlife parks, markets, and unique outdoor adventures.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_hawkesbury_river_1",
+    "title": "Explore Scenic Hawkesbury River Day Trip",
+    "description": "Discover historic farms, nature reserves, and world heritage walks just 1 hour from Sydney by train. Swim safely in sheltered bays.",
+    "imageList": [
+      ""
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Plan Your Trip",
+        "url": "https://www.sydney.com/destinations/hawkesbury"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Take a train from Sydney to Hawkesbury River for historic sites, nature reserves, and safe swimming spots in scenic bays.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_southern_highlands_1",
+    "title": "Explore Charming Southern Highlands Towns",
+    "description": "Discover Bowral and nearby villages with gardens, wine trails, festivals, and historic sites just 2 hours by train from Sydney.",
+    "imageList": [
+      ""
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Plan Your Trip",
+        "url": "https://www.visitnsw.com/destinations/country-nsw/southern-highlands/bowral"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Visit Southern Highlands from Sydney by train for gardens, wine trails, historic sites, and charming towns like Bowral.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_split_to_manly_1",
+    "title": "Scenic Coastal Walk from Split to Manly",
+    "description": "Enjoy a 3-hour hike from Mosman’s Spit Bridge to Manly, with stunning bays, beaches, lookouts, Aboriginal engravings, and harbour views.",
+    "imageList": [
+      ""
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Plan Your Hike",
+        "url": "https://www.alltrails.com/trail/australia/new-south-wales/spit-bridge-to-manly-walk"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Take the refreshing Split to Manly coastal walk for stunning harbour views, Aboriginal engravings, and beachside relaxation.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
+    "cardId": "card_barangaroo_reserve_1",
+    "title": "Urban Wilderness Just Minutes From CBD",
+    "description": "Take a quick Metro or train ride to Barangaroo Reserve for Aboriginal cultural tours, harbourside trails, native gardens, and Sydney’s best picnic spots.",
+    "imageList": [
+      ""
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Explore Barangaroo Reserve",
+        "url": "https://www.barangaroo.com/precincts/barangaroo-reserve"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Discover Barangaroo Reserve — Sydney’s urban wilderness with Aboriginal cultural tours, harbour views, walking trails, and native plants.\n\nJust minutes from the CBD.\n\n#KRAILApp https://krail.app"
+      }
+    ]
+  },
+  {
     "cardId": "card_3",
     "title": "Follow KRAIL",
     "description": "Stay updated with the latest from KRAIL.",
@@ -574,6 +767,745 @@
       {
         "buttonType": "Share",
         "shareUrl": "https://example.com/share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_kipchoge_sydney_marathon",
+    "title": "Kipchoge Running Sydney Marathon—Unmissable!",
+    "description": "World-record marathon legend Eliud Kipchoge takes on the Sydney Marathon in August—his first Oceania run.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-02",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Event Details",
+        "url": "https://sydneymarathon.com.au"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Sydney Marathon",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/sydneymarathon/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_australia_vs_southafrica_odi",
+    "title": "Watch Australia vs South Africa ODI Clash!",
+    "description": "International men’s cricket One-Day series plays at SCG later in 2025.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-01",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "SCG Events",
+        "url": "https://www.austadiums.com/sports/cricket"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "SCG",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/scg_official/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_swans_vs_essendon_afl",
+    "title": "Swans vs Essendon: Huge AFL Showdown!",
+    "description": "Sydney Swans battle Essendon live at SCG in early August’s AFL Round 21.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-02T16:15:00",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Buy Tickets",
+        "url": "https://www.austadiums.com/events/afl-sydney-swans-vs-essendon-2025"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Sydney Swans",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/sydneyswans/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_swans_vs_geelong_afl",
+    "title": "Swans Take on Geelong Cats This Month!",
+    "description": "Sydney hosts Geelong Cats at SCG in AFL Round 22—prime-time Aussie rules action.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-17T15:20:00",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Game Info",
+        "url": "https://www.austadiums.com/events/afl-sydney-swans-vs-geelong-cats-2025"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Sydney Swans",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/sydneyswans/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_roosters_vs_rabbitohs_nrl",
+    "title": "NRL Rivalry: Roosters vs Rabbitohs Faceoff!",
+    "description": "The Sydney Roosters host South Sydney Rabbitohs at Allianz Stadium in September.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-09-05T20:00:00",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Match Details",
+        "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-25/roosters-vs-rabbitohs"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Sydney Roosters",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/sydneyroosters/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_roosters_vs_raiders_nrlw",
+    "title": "Roosters Meet Raiders in NRLW Thriller!",
+    "description": "Women’s NRL clash between Roosters and Canberra Raiders scheduled at SCG.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-17",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "NRLW Info",
+        "url": "https://www.nrl.com/draw/womens-premiership/2025/round-10/roosters-vs-raiders"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "NRLW",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/nrlw/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_lions_vs_wallabies_rugby_union",
+    "title": "Legendary Lions vs Wallabies Final Test in Sydney",
+    "description": "British & Irish Lions close their tour at Accor Stadium with final test vs Wallabies.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-02",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Buy Tickets",
+        "url": "https://lionsrugby.com/tickets"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "British & Irish Lions",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/britishandirishlions/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_lions_vs_waratahs_rugby_union",
+    "title": "Catch the Lions vs Waratahs: Epic Mid‑Tour Match!",
+    "description": "Lions take on New South Wales Waratahs in lead-up to final Sydney test.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-07-05",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Match Info",
+        "url": "https://www.waratahs.com.au/"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Waratahs Rugby",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/waratahs/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_sydney_500_supercars",
+    "title": "Don’t Miss Supercars Racing in Sydney!",
+    "description": "The Sydney 500 motorsport championship turns at Sydney Motorsport Park this November.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-11-20",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Event Details",
+        "url": "https://www.supercars.com/events/sydney-500/"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Supercars",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/supercars/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_nrlw_grand_final_2025",
+    "title": "NRLW Grand Final in Sydney Confirmed!",
+    "description": "NSW to host the 2025 NRL Grand Final—women’s as well—including possible finals series in Sydney.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-10-01",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "More Info",
+        "url": "https://www.nrl.com/draw/womens-premiership/2025/finals"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "NRLW",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/nrlw/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_nrl_grand_final_2025",
+    "title": "Where Will the 2025 NRL Grand Final Be Held?",
+    "description": "NSW confirmed as venue state for NRL men’s Grand Final in October.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-10-01",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "NRL Finals Info",
+        "url": "https://www.nrl.com/draw/nrl-premiership/2025/finals"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "NRL",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/nrl/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_womens_odi_cricket_north_sydney_oval",
+    "title": "Women’s ODI Cricket Returns to North Sydney Oval!",
+    "description": "Australia’s women's ODI series vs England or India hosted at North Sydney Oval later in 2025.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-15",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Match Details",
+        "url": "https://www.cricketnsw.com.au/mens-and-womens-competitions"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "North Sydney Oval",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/northsydneyoval/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_super_rugby_lions_tour",
+    "title": "Super Rugby Hitback: Lions Tour Fever Continues!",
+    "description": "British & Irish Lions’ visiting matches in Sydney lead into final clash—massive rugby week.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-07-25",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Tour Info",
+        "url": "https://lionsrugby.com/"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "British & Irish Lions",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/britishandirishlions/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_sydney_marathon_mini_runs",
+    "title": "Sydney Marathon Mini Runs You Can Join Now!",
+    "description": "Marathon sneak-peak training run by Sydney Striders hosted at North Sydney Parkrun.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-02",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Join Event",
+        "url": "https://www.parkrun.com.au/northsydney/"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Sydney Striders",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/sydneystriders/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_beach2beach_runs_dee_why",
+    "title": "Mini Marathon, Half & 14K Beach Runs Near Dee Why!",
+    "description": "Beach2Beach race series on 23 Aug 2025 at Dee Why Beach for various distances.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-23",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Event Details",
+        "url": "https://allevents.in/au/dee-why"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Beach2Beach",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/beach2beachrunning/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_aussie_junior_ninja_qualifier",
+    "title": "Next Generation Athletes: Aussie Junior Ninja Qualifier!",
+    "description": "K-43 Ninja Dev Squad national qualifier for youth in Sydney—future sports stars in training.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-09-06",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Qualifier Info",
+        "url": "https://allevents.in/event/aussie-junior-ninja-qualifier"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Ninja Dev Squad",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/ninjadevteam/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_ausfitness_expo_icc_sydney",
+    "title": "AusFitness Expo Hits ICC Sydney This September!",
+    "description": "Big health and fitness expo with professional athletes, seminars, demos at ICC Sydney.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-09-19",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Expo Info",
+        "url": "https://allevents.in/icc-sydney"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "AusFitness Expo",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/ausfitnessexpo/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_nrl_round_23_sharks_vs_dolphins",
+    "title": "NRL Round 23 Drama: Sharks vs Dolphins!",
+    "description": "Cronulla Sharks host Dolphins at Jubilee Stadium in roaring mid-season event.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-09",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Tickets",
+        "url": "https://www.tixel.com/events/sharks-vs-dolphins-2025"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Cronulla Sharks",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/cronullasharks/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_afl_round_24_panthers_vs_storm",
+    "title": "AFL Round 24: Panthers vs Storm in Sydney!",
+    "description": "Penrith Panthers meet Melbourne Storm in Sydney in mid-August rival matchup.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-08-14",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Buy Tickets",
+        "url": "https://www.tixel.com/events/afl-panthers-vs-storm-2025"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Penrith Panthers",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/penrithpanthers/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_ufc_312_sydney",
+    "title": "Ultimate Boxing Night: UFC 312 Welcomes Sydney Fans!",
+    "description": "UFC 312 showdown brings elite MMA cards to Sydney—explosive live action.",
+    "imageList": [],
+    "type": "Sports",
+    "date": "2025-02-09",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Event Info",
+        "url": "https://www.ufc.com/event/ufc-312"
+      },
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "UFC",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/ufc/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardId": "card_sydney_indoor_ski_resort_2028",
+    "title": "Sydney’s Indoor Ski Resort Opens 2028",
+    "description": "Sydney’s long-awaited indoor ski resort opening in 2028 with a 300m snow run, Olympic training zone, and four-star hotel.",
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Read More",
+        "url": "https://search.app/Q6RFb"
+      }
+    ]
+  },
+  {
+    "cardId": "event_wanderer_festival_2025",
+    "title": "Wanderer Festival 2025",
+    "description": "Join the Wanderer Festival on 4-5 Oct at Pambula Beach for music, arts, and community vibes.",
+    "type": "Events",
+    "date": "2025-10-04",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Learn More",
+        "url": "https://www.wandererfestival.com"
+      }
+    ]
+  },
+  {
+    "cardId": "event_defected_sydney_2025",
+    "title": "Defected Sydney 2025",
+    "description": "Defected Sydney festival hits Ivy on 1 Nov for house music lovers.",
+    "type": "Events",
+    "date": "2025-11-01",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Get Tickets",
+        "url": "https://defected.com/events/sydney"
+      }
+    ]
+  },
+  {
+    "cardId": "event_allday_august_tour_2025",
+    "title": "ALLDAY - August Tour",
+    "description": "Catch ALLDAY live at Beach Hotel, Byron Bay on 23 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-23",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "More Info",
+        "url": "https://www.allday.com.au/tour"
+      }
+    ]
+  },
+  {
+    "cardId": "event_thundamentals_top_5_meals",
+    "title": "Thundamentals Top 5 Fantasy Vs Reality Tour Meals",
+    "description": "Aussie hip hop legends Thundamentals share their top 5 tour meals, 6 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-06",
+    "buttons": []
+  },
+  {
+    "cardId": "event_south_island_wine_food_festival_2025",
+    "title": "South Island Wine & Food Festival 2025",
+    "description": "Celebrate Marlborough’s best at the South Island Wine & Food Festival, 6 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-06",
+    "buttons": []
+  },
+  {
+    "cardId": "event_above_first_hour_drinks",
+    "title": "Your First Hour Of Drinks Is On The House At ABOVE",
+    "description": "Saturday night plans made easy at ABOVE with free first hour drinks, 4 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-04",
+    "buttons": []
+  },
+  {
+    "cardId": "event_dunedin_craft_beer_food_festival_2025",
+    "title": "Dunedin Craft Beer and Food Festival 2025",
+    "description": "Enjoy craft beer and food at Dunedin’s festival, 4 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-04",
+    "buttons": []
+  },
+  {
+    "cardId": "event_the_animals_final_curtain_tour_2025",
+    "title": "The Animals (UK) - The Final Curtain Tour",
+    "description": "Catch The Animals live at Selina's Coogee Bay Hotel, 1 Nov 2025.",
+    "type": "Events",
+    "date": "2025-11-01",
+    "buttons": []
+  },
+  {
+    "cardId": "event_don_broco_2025",
+    "title": "DON BROCO Live",
+    "description": "DON BROCO performs live at Manning Bar on 5 Sep 2025.",
+    "type": "Events",
+    "date": "2025-09-05",
+    "buttons": []
+  },
+  {
+    "cardId": "event_sara_landry_2025",
+    "title": "SARA LANDRY Live",
+    "description": "SARA LANDRY at Munro Warehouse, Sydney Olympic Park on 12 Dec 2025.",
+    "type": "Events",
+    "date": "2025-12-12",
+    "buttons": []
+  },
+  {
+    "cardId": "event_ben_lee_awake_is_the_new_sleep_2025",
+    "title": "Ben Lee - Awake is the New Sleep 20th Anniversary Tour",
+    "description": "Celebrate Ben Lee’s album anniversary at Beach Hotel, Byron Bay on 2 Oct 2025.",
+    "type": "Events",
+    "date": "2025-10-02",
+    "buttons": []
+  },
+  {
+    "cardId": "event_wildaid_2025",
+    "title": "WILDAID 2025",
+    "description": "Support wildlife at WILDAID 2025 event, 27 Sep at The Green Room Byron.",
+    "type": "Events",
+    "date": "2025-09-27",
+    "buttons": []
+  },
+  {
+    "cardId": "event_hamro_dassim_2025",
+    "title": "HAMRO (CAN) & DASSIM (AUS)",
+    "description": "Live at KX Club (Kings Cross Hotel) on 9 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-09",
+    "buttons": []
+  },
+  {
+    "cardId": "event_strummingbird_newcastle_2025",
+    "title": "Strummingbird Newcastle 2025",
+    "description": "Music festival at Newcastle Foreshore on 1 Nov 2025.",
+    "type": "Events",
+    "date": "2025-11-01",
+    "buttons": []
+  },
+  {
+    "cardId": "event_raydia_festival_2025",
+    "title": "RAYDIA Festival",
+    "description": "Annual RAYDIA Festival at The Domain on 15 Nov 2025.",
+    "type": "Events",
+    "date": "2025-11-15",
+    "buttons": []
+  },
+  {
+    "cardId": "event_soul_heaven_dj_spen_usa_2025",
+    "title": "Soul Heaven ft DJ Spen (USA)",
+    "description": "Dance the night away at Aura Nightclub on 26 Sep 2025.",
+    "type": "Events",
+    "date": "2025-09-26",
+    "buttons": []
+  },
+  {
+    "cardId": "event_mochakk_calling_sydney_2025",
+    "title": "Mochakk Calling Sydney by Listen Out Presents",
+    "description": "Live music at Fleet Steps on 4 Oct 2025.",
+    "type": "Events",
+    "date": "2025-10-04",
+    "buttons": []
+  },
+  {
+    "cardId": "event_hot_dub_on_the_harbour_2025",
+    "title": "Hot Dub on the Harbour 2025",
+    "description": "Festival at Fleet Steps on 21 Nov 2025.",
+    "type": "Events",
+    "date": "2025-11-21",
+    "buttons": []
+  },
+  {
+    "cardId": "event_fashion_thrift_society_central_coast_2025",
+    "title": "Fashion Thrift Society Central Coast",
+    "description": "Thrift market at Breakers Indoor Sports Stadium, 16 Aug 2025.",
+    "type": "Events",
+    "date": "2025-08-16",
+    "buttons": []
+  },
+  {
+    "cardId": "event_la_ronde_spiegeltent_newcastle_2025",
+    "title": "La Ronde at The Spiegeltent Newcastle",
+    "description": "Event at King St, Newcastle, 5 Sep 2025.",
+    "type": "Events",
+    "date": "2025-09-05",
+    "buttons": []
+  },
+  {
+    "cardId": "event_garry_starr_classic_penguins_2025",
+    "title": "Garry Starr: Classic Penguins",
+    "description": "Live music at The Grand Electric, Sydney on 3 Sep 2025.",
+    "type": "Events",
+    "date": "2025-09-03",
+    "buttons": []
+  },
+  {
+    "cardId": "event_calamity_jane_sydney_opera_house_2025",
+    "title": "Calamity Jane | 14 Oct – 16 Nov 2025",
+    "description": "Theatre show at Sydney Opera House - Studio, from 14 Oct to 16 Nov 2025.",
+    "type": "Events",
+    "date": "2025-10-14",
+    "buttons": []
+  },
+  {
+    "cardId": "event_wattamolla_to_marley_beach",
+    "title": "Wattamolla to Marley Beach Coastal Walk",
+    "description": "7km easy coastal trail in Royal National Park with ocean views, whale watching, and peaceful beaches. Perfect for a relaxed winter hike.",
+    "imageList": [
+      "https://example.com/images/wattamolla-beach.jpg"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Trail Guide",
+        "url": "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/wattamolla-to-little-marley-beach"
+      }
+    ]
+  },
+  {
+    "title": "Illusionist Anthony Street Live Show",
+    "description": "Experience modern magic with Anthony Street’s breathtaking illusions and theatrical storytelling at Sydney State Theatre.",
+    "date": "2025-09-07",
+    "imageList": [
+      ""
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Now",
+        "url": "https://streetmagic.com.au/sydney"
       }
     ]
   }
