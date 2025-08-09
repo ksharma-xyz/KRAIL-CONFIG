@@ -167,6 +167,26 @@
     ]
   },
   {
+    "cardId": "card_tulip_time_festival_2025",
+    "title": "Tulip Time Festival - 12 Sep - 6 Oct 2025",
+    "description": "See 80,000+ tulips in bloom at Corbett Gardens, Bowral. Festival runs 12 Sep - 6 Oct 2025 with music, markets and art.",
+    "imageList": [
+      "https://i.imgur.com/gyulz3b.jpeg"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Follow Tulip Trail",
+        "url": "https://www.visitsouthernhighlands.com.au/industry-hub/tulip-time/tulip-trail-2025/"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Tulip Time Festival in Bowral is back 12 Sep - 6 Oct 2025 with 80,000+ tulips, music, markets and art!"
+      }
+    ]
+  },
+  {
     "cardId": "card_taronga_zoo_1",
     "title": "Brilliant Zoo With Harbour Skyline Views",
     "description": "See koalas, kangaroos, giraffes and more. Catch animal shows, feed wildlife, and enjoy stunning views of Sydney Harbour.",
@@ -649,13 +669,14 @@
     "title": "Explore Scenic Hawkesbury River Day Trip",
     "description": "Discover historic farms, nature reserves, and world heritage walks just 1 hour from Sydney by train. Swim safely in sheltered bays.",
     "imageList": [
-      ""
+      "https://assets.atdw-online.com.au/images/64bebb686af5c12ba441e9eabf7d5553.jpeg"
     ],
     "type": "Travel",
+    "disclaimer": "Image Credit: sydeny.com",
     "buttons": [
       {
         "buttonType": "Cta",
-        "label": "Plan Your Trip",
+        "label": "Explore Hawkesbury",
         "url": "https://www.sydney.com/destinations/hawkesbury"
       },
       {
@@ -669,7 +690,7 @@
     "title": "Explore Charming Southern Highlands Towns",
     "description": "Discover Bowral and nearby villages with gardens, wine trails, festivals, and historic sites just 2 hours by train from Sydney.",
     "imageList": [
-      ""
+      "https://i.imgur.com/YUoxHfQ.png"
     ],
     "type": "Travel",
     "buttons": [
@@ -689,7 +710,7 @@
     "title": "Scenic Coastal Walk from Split to Manly",
     "description": "Enjoy a 3-hour hike from Mosman’s Spit Bridge to Manly, with stunning bays, beaches, lookouts, Aboriginal engravings, and harbour views.",
     "imageList": [
-      ""
+      "https://i.imgur.com/0iGwwdS.jpeg"
     ],
     "type": "Travel",
     "buttons": [
@@ -709,18 +730,18 @@
     "title": "Urban Wilderness Just Minutes From CBD",
     "description": "Take a quick Metro or train ride to Barangaroo Reserve for Aboriginal cultural tours, harbourside trails, native gardens, and Sydney’s best picnic spots.",
     "imageList": [
-      ""
+      "https://i.imgur.com/jJkGMQ7.jpeg"
     ],
     "type": "Travel",
     "buttons": [
       {
         "buttonType": "Cta",
-        "label": "Explore Barangaroo Reserve",
+        "label": "Explore",
         "url": "https://www.barangaroo.com/precincts/barangaroo-reserve"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover Barangaroo Reserve — Sydney’s urban wilderness with Aboriginal cultural tours, harbour views, walking trails, and native plants.\n\nJust minutes from the CBD."
+        "shareUrl": "Discover Barangaroo Reserve — Sydney’s urban wilderness with Aboriginal cultural tours, harbour views, walking trails, and native plants."
       }
     ]
   },
@@ -735,42 +756,6 @@
     "buttons": [
       {
         "buttonType": "AppSocial"
-      }
-    ]
-  },
-  {
-    "cardId": "card_4",
-    "title": "Opal Fare Changes 2025",
-    "description": "Opal fares are changing in 2025. Check out the latest updates and plan your travel accordingly.",
-    "imageList": [
-      "https://i.imgur.com/kpd99ri.png"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "PartnerSocial",
-        "socialPartnerName": "XYZ Place",
-        "links": [
-          {
-            "type": "Facebook",
-            "url": "https://example.com"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardId": "card_5",
-    "title": "New Park & Ride",
-    "description": "Park & Ride is a convenient way to travel in NSW. Find out more about the facilities available.",
-    "imageList": [
-      "https://i.imgur.com/vMbFo2W.png"
-    ],
-    "type": "Travel",
-    "buttons": [
-      {
-        "buttonType": "Share",
-        "shareUrl": "https://example.com/share"
       }
     ]
   },
