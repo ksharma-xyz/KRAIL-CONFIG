@@ -497,7 +497,7 @@
     "title": "Fairy Bower - Ocean Nymph Pool",
     "description": "Historic rockpool with sea sculptures. Swim, sunbathe, and enjoy ocean views at this iconic Manly spot.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://assets.atdw-online.com.au/images/f48d3c8acf798e5b80e36a4f1e494105.jpeg"
     ],
     "type": "Travel",
     "buttons": [
@@ -508,7 +508,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Hop off the Manly ferry and stroll to Fairy Bower Rockpool—built in 1929, shaped like a triangle, and guarded by sea nymph sculptures.\n\nFind it on the KRAIL App."
+        "shareUrl": "Hop off the Manly ferry and stroll to Fairy Bower Rockpool—built in 1929, shaped like a triangle, and guarded by sea nymph sculptures."
       }
     ]
   },
@@ -516,7 +516,9 @@
     "cardId": "card_cockatoo_island",
     "title": "Explore A Haunted Island in the Harbour",
     "description": "Visit Cockatoo Island—Sydney’s UNESCO site offering history, art exhibitions, and waterfront camping right in the harbour.",
-    "imageList": [],
+    "imageList": [
+      "https://i.imgur.com/9m4DRKn.png"
+    ],
     "type": "Travel",
     "buttons": [
       {
@@ -531,32 +533,27 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Explore Cockatoo Island, Sydney’s UNESCO-listed gem with convict history, naval relics, harbour views, and waterfront camping.\n\nOnly on the KRAIL App."
+        "shareUrl": "Explore Cockatoo Island, Sydney’s UNESCO-listed gem with convict history, naval relics, harbour views, and waterfront camping."
       }
     ]
   },
   {
-    "cardId": "card_budget_train_daytrips",
-    "title": "Budget Day Trips by Train",
-    "description": "Visit Katoomba, Kiama, Manly, Olympic Park—cheap, scenic public transport getaways from Sydney.",
+    "cardId": "card_claustral_canyon",
+    "title": "Claustral Canyon - Challenging Blue Mountains Hike",
+    "description": "A strenuous 7.7km canyon route in Blue Mountains National Park with cold water swims, abseils, and stunning wilderness. Best for experienced hikers, ideally in summer.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/D8OxBkR.png"
     ],
     "type": "Travel",
     "buttons": [
       {
         "buttonType": "Cta",
-        "socialPartnerName": "Weekending",
-        "links": [
-          {
-            "type": "Instagram",
-            "url": "https://www.instagram.com/weekending.au"
-          }
-        ]
+        "label": "Explore Trail",
+        "url": "https://www.alltrails.com/trail/australia/new-south-wales/claustral-canyon"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Escape the city with these scenic Sydney day trips—Katoomba, Kiama, Manly, and Olympic Park—all reachable by train or ferry.\n\nOnly on the KRAIL App."
+        "shareUrl": "Explore the Claustral Canyon hike in the Blue Mountains – a challenging 7.7km route with cold swims, abseils, and stunning views. Best for experienced hikers."
       }
     ]
   },
@@ -565,7 +562,7 @@
     "title": "Royal National Park - Coastal Hikes",
     "description": "Train to Otford or Cronulla ferry for seaside bushwalks, hidden beaches, and eucalyptus forest trails.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/pkixWL9.jpeg"
     ],
     "type": "Travel",
     "buttons": [
@@ -581,7 +578,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover Royal National Park by train—coastal hikes, hidden beaches, and bushland adventures just outside Sydney.\n\nOnly on the KRAIL App."
+        "shareUrl": "Discover Royal National Park by train—coastal hikes, hidden beaches, and bushland adventures just outside Sydney."
       }
     ]
   },
@@ -590,19 +587,19 @@
     "title": "Berowra Valley Loop Hike by Train",
     "description": "Scenic bushwalk linking Mount Kuring-Gai and Berowra with Cowan Creek, Waratah Bay, and Appletree Bay views.",
     "imageList": [
-      "https://i.imgur.com/XXXXXXX.png"
+      "https://www.nationalparks.nsw.gov.au/-/media/npws/images/parks/berowra-valley-regional-park/park/benowie-walking-track.jpg"
     ],
     "type": "Travel",
     "disclaimer": "Image Credit: NSW National Parks",
     "buttons": [
       {
         "buttonType": "Cta",
-        "label": "Explore",
-        "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/berowra-valley-national-park"
+        "label": "Explore Trail",
+        "url": "https://www.alltrails.com/trail/australia/new-south-wales/berowra-track-via-the-great-north-walk-loop"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Explore Berowra Valley Loop Hike via train – enjoy Cowan Creek, Waratah Bay, and Appletree Bay.\n\nFound via KRAIL App – your Sydney guide."
+        "shareUrl": "Explore Berowra Valley Loop Hike via train – enjoy Cowan Creek, Waratah Bay, and Appletree Bay."
       }
     ]
   },
@@ -611,18 +608,19 @@
     "title": "Palm Beach & Barrenjoey Lighthouse Walk",
     "description": "Just 1.5 hours from Wynyard, explore Palm Beach with stunning dual coast views, easy hikes, and a historic cable suspension bridge.",
     "imageList": [
-      ""
+      "https://www.nationalparks.nsw.gov.au/-/media/npws/images/parks/ku-ring-gai-chase-national-park/barrenjoey-lighthouse/barrenjoey-lighthouse-06.jpg"
     ],
+    "disclaimer": "Image Credit: NSW National Parks",
     "type": "Travel",
     "buttons": [
       {
         "buttonType": "Cta",
         "label": "Learn More",
-        "url": "https://www.sydney.com/destinations/sydney/sydney-north/palm-beach"
+        "url": "https://www.nationalparks.nsw.gov.au/things-to-do/historic-buildings-places/barrenjoey-lighthouse"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover Palm Beach and Barrenjoey Lighthouse walk – stunning dual beach views, easy hikes, and picnic spots.\n\nFound via KRAIL App – your Sydney guide."
+        "shareUrl": "Discover Palm Beach and Barrenjoey Lighthouse walk – stunning dual beach views, easy hikes, and picnic spots."
       }
     ]
   },
@@ -631,18 +629,18 @@
     "title": "Discover Central Coast Beaches & Nature",
     "description": "Just under 2 hours from Sydney CBD, explore beaches, national parks, wildlife, markets, and unique adventures on the Central Coast.",
     "imageList": [
-      ""
+      "https://www.visitnsw.com/sites/visitnsw/files/styles/gallery_no_thumb_large/public/2024-11/177778_Avoca_Beach_Central_Coast_DNSW.webp"
     ],
     "type": "Travel",
     "buttons": [
       {
         "buttonType": "Cta",
-        "label": "Learn More",
-        "url": "https://www.sydney.com/destinations/central-coast"
+        "label": "Explore",
+        "url": "https://www.visitnsw.com/articles/central-coast-beaches"
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Escape to the Central Coast from Sydney – stunning beaches, hiking, wildlife parks, markets, and unique outdoor adventures.\n\nFound via KRAIL App – your Sydney guide."
+        "shareUrl": "Escape to the Central Coast from Sydney – stunning beaches, hiking, wildlife parks, markets, and unique outdoor adventures."
       }
     ]
   },
@@ -662,7 +660,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Take a train from Sydney to Hawkesbury River for historic sites, nature reserves, and safe swimming spots in scenic bays.\n\nFound via KRAIL App – your Sydney guide."
+        "shareUrl": "Take a train from Sydney to Hawkesbury River for historic sites, nature reserves, and safe swimming spots in scenic bays."
       }
     ]
   },
@@ -682,7 +680,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Visit Southern Highlands from Sydney by train for gardens, wine trails, historic sites, and charming towns like Bowral.\n\nFound via KRAIL App – your Sydney guide."
+        "shareUrl": "Visit Southern Highlands from Sydney by train for gardens, wine trails, historic sites, and charming towns like Bowral."
       }
     ]
   },
@@ -702,7 +700,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Take the refreshing Split to Manly coastal walk for stunning harbour views, Aboriginal engravings, and beachside relaxation.\n\nFound via KRAIL App – your Sydney guide."
+        "shareUrl": "Take the refreshing Split to Manly coastal walk for stunning harbour views, Aboriginal engravings, and beachside relaxation."
       }
     ]
   },
