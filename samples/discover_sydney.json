@@ -311,7 +311,9 @@
     "cardId": "card_corner75_1",
     "title": "Sydney’s Hungarian Icon Returns",
     "description": "Randwick’s beloved Corner 75 is reborn under Sixpenny and Baba’s Place – classic schnitzels, warmth, and Hungarian flair intact.",
-    "imageList": [],
+    "imageList": [
+      "https://i.imgur.com/sbMwhQi.png"
+    ],
     "type": "Food",
     "buttons": [
       {
@@ -320,7 +322,7 @@
         "links": [
           {
             "type": "Instagram",
-            "url": "https://www.instagram.com/corner.75/?hl=en"
+            "url": "https://www.instagram.com/corner.75/"
           }
         ]
       },
@@ -334,7 +336,9 @@
     "cardId": "card_mistergrotto_1",
     "title": "Mister Grotto - Seafood Cabin Vibes",
     "description": "Newtown’s nautical 30-seater does whole-fish dishes, tuna sausage snacks, raw plates, and a set menu – all from a Saint Peter alum.",
-    "imageList": [],
+    "imageList": [
+      "https://i.imgur.com/T717fJC.png"
+    ],
     "type": "Food",
     "buttons": [
       {
@@ -349,7 +353,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Mister Grotto in Newtown is a seafood lover’s dream. Whole-fish dishes, raw plates, and serious cabin vibes. \n\nDiscovered on KRAIL App – Sydney’s local food radar.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Mister Grotto in Newtown is a seafood lover’s dream. Whole-fish dishes, raw plates, and serious cabin vibes."
       }
     ]
   },
@@ -358,7 +362,7 @@
     "title": "Cherry’s Gooey Cookies Are Legendary",
     "description": "Cherry’s Goods pop‑up kiosk in The Galeries sells viral pistachio‑matcha cookies Sydney can't get enough of.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/AlKarXP.png"
     ],
     "type": "Food",
     "buttons": [
@@ -369,7 +373,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "TikTok sensation Cherry’s Goods has landed in Sydney CBD with gooey matcha cookies and frothy pistachio lattes. \n\nFind it on the KRAIL App – discover Sydney’s viral food spots.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "TikTok sensation Cherry’s Goods has landed in Sydney CBD with gooey matcha cookies and frothy pistachio lattes."
       }
     ]
   },
@@ -378,7 +382,7 @@
     "title": "Italian Wine Bar With 30 Drops By Glass!",
     "description": "Cicci in Balmain serves top‑tier Italian wines and daring daily‑menu plates from a Firedoor veteran.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/WVC2eRC.jpeg"
     ],
     "type": "Food",
     "buttons": [
@@ -394,7 +398,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Italian wine bar Cicci in Balmain offers 30+ drops by the glass and daring fire-cooked plates from a Firedoor alum.\n\nExplore it now on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Italian wine bar Cicci in Balmain offers 30+ drops by the glass and daring fire-cooked plates from a Firedoor alum."
       }
     ]
   },
@@ -403,7 +407,7 @@
     "title": "G&Ts Served in Giant Goblets? Yes.",
     "description": "Massive goblet G&Ts, Euro wines, and snacky Italian plates from the Pavonis in Enmore.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/FgXEdCn.jpeg"
     ],
     "type": "Food",
     "buttons": [
@@ -419,7 +423,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Vineria Luisa in Enmore serves towering goblet G&Ts, Euro-style wines and Italian bar snacks behind a pink heritage facade.\n\nCheck it out on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Vineria Luisa in Enmore serves towering goblet G&Ts, Euro-style wines and Italian bar snacks behind a pink heritage facade."
       }
     ]
   },
@@ -428,7 +432,7 @@
     "title": "Best Breakfast’ Miso Fish & 63‑Degree Egg",
     "description": "Devon Barangaroo is redefining early meals with market fish, smoked eel croquettes and pristine coffee.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/IFYpESk.jpeg"
     ],
     "type": "Food",
     "buttons": [
@@ -444,7 +448,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Devon Cafe Barangaroo serves brunch like no other – think market fish, smoked eel croquettes, and precision 63° eggs.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Devon Cafe Barangaroo serves brunch like no other – think market fish, smoked eel croquettes, and precision 63° eggs."
       }
     ]
   },
@@ -452,7 +456,9 @@
     "cardId": "card_sydney_opera_house_tour_1",
     "title": "Sydney Opera House Tour Will Blow Your Mind",
     "description": "Explore the iconic UNESCO‑listed building via guided tours and live performances at Bennelong Point.",
-    "imageList": [],
+    "imageList": [
+      "https://i.imgur.com/aBt6uvT.png"
+    ],
     "type": "Travel",
     "buttons": [
       {
@@ -462,7 +468,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Take a guided tour of the Sydney Opera House – a UNESCO-listed architectural marvel at Bennelong Point. See it live.\n\nCheck it out on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Take a guided tour of the Sydney Opera House – a UNESCO-listed architectural marvel at Bennelong Point. See it live."
       }
     ]
   },
@@ -471,7 +477,7 @@
     "title": "Hidden Mangrove Maze in Sydney",
     "description": "Explore Badu Mangroves at Sydney Olympic Park via lush boardwalks and spot native birds in peaceful surrounds.",
     "imageList": [
-      "https://i.imgur.com/EuUxtgY.png"
+      "https://i.imgur.com/vrl4UgO.png"
     ],
     "type": "Travel",
     "buttons": [
@@ -482,7 +488,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover the Badu Mangroves boardwalk – a serene trail through Sydney Olympic Park featuring Dreaming Track poems and native birdlife.\n\nCheck it out on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Discover the Badu Mangroves boardwalk – a serene trail through Sydney Olympic Park featuring Dreaming Track poems and native birdlife."
       }
     ]
   },
@@ -502,7 +508,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Hop off the Manly ferry and stroll to Fairy Bower Rockpool—built in 1929, shaped like a triangle, and guarded by sea nymph sculptures.\n\nFind it on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Hop off the Manly ferry and stroll to Fairy Bower Rockpool—built in 1929, shaped like a triangle, and guarded by sea nymph sculptures.\n\nFind it on the KRAIL App."
       }
     ]
   },
@@ -525,7 +531,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Explore Cockatoo Island, Sydney’s UNESCO-listed gem with convict history, naval relics, harbour views, and waterfront camping.\n\nOnly on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Explore Cockatoo Island, Sydney’s UNESCO-listed gem with convict history, naval relics, harbour views, and waterfront camping.\n\nOnly on the KRAIL App."
       }
     ]
   },
@@ -550,7 +556,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Escape the city with these scenic Sydney day trips—Katoomba, Kiama, Manly, and Olympic Park—all reachable by train or ferry.\n\nOnly on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Escape the city with these scenic Sydney day trips—Katoomba, Kiama, Manly, and Olympic Park—all reachable by train or ferry.\n\nOnly on the KRAIL App."
       }
     ]
   },
@@ -575,7 +581,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover Royal National Park by train—coastal hikes, hidden beaches, and bushland adventures just outside Sydney.\n\nOnly on the KRAIL App.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Discover Royal National Park by train—coastal hikes, hidden beaches, and bushland adventures just outside Sydney.\n\nOnly on the KRAIL App."
       }
     ]
   },
@@ -596,7 +602,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Explore Berowra Valley Loop Hike via train – enjoy Cowan Creek, Waratah Bay, and Appletree Bay.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Explore Berowra Valley Loop Hike via train – enjoy Cowan Creek, Waratah Bay, and Appletree Bay.\n\nFound via KRAIL App – your Sydney guide."
       }
     ]
   },
@@ -616,7 +622,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover Palm Beach and Barrenjoey Lighthouse walk – stunning dual beach views, easy hikes, and picnic spots.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Discover Palm Beach and Barrenjoey Lighthouse walk – stunning dual beach views, easy hikes, and picnic spots.\n\nFound via KRAIL App – your Sydney guide."
       }
     ]
   },
@@ -636,7 +642,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Escape to the Central Coast from Sydney – stunning beaches, hiking, wildlife parks, markets, and unique outdoor adventures.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Escape to the Central Coast from Sydney – stunning beaches, hiking, wildlife parks, markets, and unique outdoor adventures.\n\nFound via KRAIL App – your Sydney guide."
       }
     ]
   },
@@ -656,7 +662,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Take a train from Sydney to Hawkesbury River for historic sites, nature reserves, and safe swimming spots in scenic bays.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Take a train from Sydney to Hawkesbury River for historic sites, nature reserves, and safe swimming spots in scenic bays.\n\nFound via KRAIL App – your Sydney guide."
       }
     ]
   },
@@ -676,7 +682,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Visit Southern Highlands from Sydney by train for gardens, wine trails, historic sites, and charming towns like Bowral.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Visit Southern Highlands from Sydney by train for gardens, wine trails, historic sites, and charming towns like Bowral.\n\nFound via KRAIL App – your Sydney guide."
       }
     ]
   },
@@ -696,7 +702,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Take the refreshing Split to Manly coastal walk for stunning harbour views, Aboriginal engravings, and beachside relaxation.\n\nFound via KRAIL App – your Sydney guide.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Take the refreshing Split to Manly coastal walk for stunning harbour views, Aboriginal engravings, and beachside relaxation.\n\nFound via KRAIL App – your Sydney guide."
       }
     ]
   },
@@ -716,7 +722,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Discover Barangaroo Reserve — Sydney’s urban wilderness with Aboriginal cultural tours, harbour views, walking trails, and native plants.\n\nJust minutes from the CBD.\n\n#KRAILApp https://krail.app"
+        "shareUrl": "Discover Barangaroo Reserve — Sydney’s urban wilderness with Aboriginal cultural tours, harbour views, walking trails, and native plants.\n\nJust minutes from the CBD."
       }
     ]
   },
