@@ -20,7 +20,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Check out AP Quay by All Purpose Bakery (https://www.instagram.com/a.p.bread/) — flaky croissants, bread snacks, and great wine in Circular Quay!"
+        "shareUrl": "Check out AP Quay by All Purpose Bakery — flaky croissants, bread snacks, and great wine in Circular Quay!"
       }
     ]
   },
@@ -95,7 +95,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Taguan Café (https://www.instagram.com/taguancafe.syd) is putting a Filipino twist on brunch in Barangaroo – think ube lattes, banana-ketchup rolls, and slow-cooked beef toasties!"
+        "shareUrl": "Taguan Café is putting a Filipino twist on brunch in Barangaroo – think ube lattes, banana-ketchup rolls, and slow-cooked beef toasties!"
       }
     ]
   },
@@ -120,7 +120,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Sydney Opera House (https://www.instagram.com/sydneyoperahouse/) is a must-visit for architecture and performance lovers!"
+        "shareUrl": "Sydney Opera House is a must-visit for architecture and performance lovers!"
       }
     ]
   },
@@ -141,7 +141,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Climb the Sydney Harbour Bridge (https://www.bridgeclimb.com/) for sweeping skyline views – bucket list worthy!\n\nInstagram - https://www.instagram.com/bridgeclimb/"
+        "shareUrl": "Climb the Sydney Harbour Bridge for sweeping skyline views – bucket list worthy!\n\nInstagram - https://www.instagram.com/bridgeclimb/"
       }
     ]
   },
@@ -162,7 +162,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Walk the Bondi to Coogee trail (https://www.alltrails.com/trail/australia/new-south-wales/bondi-beach-to-coogee-beach-walk) – beaches, cliffs and even art in October!"
+        "shareUrl": "Walk the Bondi to Coogee trail – beaches, cliffs and even art in October!"
       }
     ]
   },
@@ -253,7 +253,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "Rising Sun Workshop (https://www.risingsunworkshop.com) blends ramen, izakaya, and bike culture in Newtown. Breakfast ramen is real!"
+        "shareUrl": "Rising Sun Workshop blends ramen, izakaya, and bike culture in Newtown. Breakfast ramen is real!"
       }
     ]
   },
@@ -273,7 +273,7 @@
       },
       {
         "buttonType": "Share",
-        "shareUrl": "The Malaya (https://www.themalaya.com.au) has been serving bold Malaysian flavours for over 60 years – XO pippies, iconic curries, and waterfront vibes await."
+        "shareUrl": "The Malaya has been serving bold Malaysian flavours for over 60 years – XO pippies, iconic curries, and waterfront vibes await."
       }
     ]
   },
@@ -863,6 +863,28 @@
         "buttonType": "Cta",
         "label": "Book Now",
         "url": "https://streetmagic.com.au/sydney"
+      }
+    ]
+  },
+  {
+    "cardId": "card_city_2_surf_2025",
+    "title": "TEST TOP: City 2 SURF 2025",
+    "startDate": "2025-08-10",
+    "endDate": "2025-08-10",
+    "description": "CITY 2 SURF is back on 10 Aug 2025! Join the iconic fun run from Sydney CBD to Bondi Beach. Register now!",
+    "imageList": [
+      "https://i.imgur.com/rj4C6DY.png"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Now",
+        "url": "https://www.bridgeclimb.com/"
+      },
+      {
+        "buttonType": "Share",
+        "shareUrl": "Climb the Sydney Harbour Bridge for sweeping skyline views – bucket list worthy!\n\nInstagram - https://www.instagram.com/bridgeclimb/"
       }
     ]
   }
