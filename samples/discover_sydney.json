@@ -851,20 +851,154 @@
     ]
   },
   {
-    "cardId": "card_city_2_surf_2025",
-    "title": "TEST TOP: City 2 SURF 2025",
-    "startDate": "2025-08-10",
-    "endDate": "2025-08-10",
-    "description": "CITY 2 SURF is back on 10 Aug 2025! Join the iconic fun run from Sydney CBD to Bondi Beach. Register now!",
+    "cardId": "card_bubble_planet_sydney_2025",
+    "title": "Step Into Bubble Planet – Sydney's Most Instagrammable Event",
+    "description": "Explore 10 bubble worlds from giant balloons to VR. Fun for all ages at Sydney Olympic Park.",
     "imageList": [
-      "https://i.imgur.com/rj4C6DY.png"
+      "https://i.imgur.com/GHKp7ea.png"
     ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Buy Tickets",
+        "url": "https://bubble-planet.com/sydney/"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_titanic_human_story_1",
+    "title": "Titanic - The Human Story: Emotional Exhibition at Walsh Bay",
+    "description": "Immersive exhibition with 300+ original artefacts, audio guide and life-size recreations.",
+    "imageList": [
+      "https://i.imgur.com/TydNMDH.png"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Buy Tickets",
+        "url": "https://titanicexhibition.com.au/sydney"
+      }
+    ]
+  },
+  {
+    "cardId": "card_footloose_1",
+    "title": "Cut Loose, Sydney – Footloose Rocks The Concourse Stage",
+    "description": "Dance in the aisles with the electrifying 80s cult classic live at Chatswood's Concourse Theatre.",
+    "startDate": "2025-08-15",
+    "endDate": "2025-08-30",
+    "imageList": [
+      "https://i.imgur.com/xsag5gA.png"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Get Tickets",
+        "url": "https://paca.sydney/footloose/"
+      }
+    ]
+  },
+  {
+    "cardId": "card_candlelight_taylorswift_1",
+    "title": "Candlelight – Taylor Swift Tribute",
+    "description": "Experience Taylor Swift’s greatest hits by string quartet at St Stephen's Uniting Church, lit by hundreds of candles.",
+    "startDate": "2025-08-22",
+    "endDate": "2025-08-22",
+    "imageList": [
+      "https://media.timeout.com/images/105967279/1920/1080/image.webp"
+    ],
+    "disclaimer": "Image Credit: Candlelight: A Tribute to Taylor Swift",
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tickets",
+        "url": "https://feverup.com/m/149031"
+      }
+    ]
+  },
+  {
+    "cardId": "card_candlelight_hanszimmer_1",
+    "title": "Candlelight – Hans Zimmer’s Best Works in Sydney",
+    "description": "Enjoy Hans Zimmer’s iconic scores by string quartet at St Stephen’s Uniting Church by candlelight.",
+    "startDate": "2025-09-13",
+    "endDate": "2025-09-13",
+    "imageList": [
+      "https://media.timeout.com/images/105967279/1920/1080/image.webp"
+    ],
+    "disclaimer": "Image Credit: Candlelight: Hans Zimmer's Best Works & More",
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tickets",
+        "url": "https://feverup.com/m/111196"
+      }
+    ]
+  },
+  {
+    "cardId": "card_hop_on_hop_off_bus_sydney",
+    "title": "Hop-on Hop-off Bus Sydney – Explore Iconic Landmarks with Ease",
+    "description": "24H & 48H bus tours with audio guide, Bondi stops, and optional harbour cruise & ferry.",
+    "imageList": [
+      "https://www.bigbustours.com/media/catalog/product/b/i/big-bus-tours-sydney-essential-ticket-under-the-bridge_1.jpg"
+    ],
+    "disclaimer": "Image Credit: Big Bus Tours",
     "type": "Travel",
     "buttons": [
       {
         "buttonType": "Cta",
-        "label": "Book Now",
-        "url": "https://www.bridgeclimb.com/"
+        "label": "Book Tickets",
+        "url": "https://www.bigbustours.com/en/sydney/sydney-bus-tours"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_hyper_karting_1",
+    "title": "Sydney’s Fastest Electric Go-Kart Track – Hyper Karting",
+    "description": "Race on Australia’s longest indoor track with F1-style karts, VR arena, and ever-changing layouts.",
+    "imageList": [
+      "https://i.imgur.com/781xra0.jpeg"
+    ],
+    "type": "Sports",
+    "disclaimer": "Image Credit: hyperkarting.com.au",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Hyper Karting",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/hyperkarting"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_zero_latency_parramatta",
+    "title": "Zero Latency Parramatta – Sydney’s Ultimate VR Playground",
+    "description": "Battle zombies, escape rooms, and wild adventures await in Parramatta’s massive free-roam VR arena.",
+    "imageList": [
+      "https://i.imgur.com/AD5V55O.png"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Your VR Adventure",
+        "url": "https://zerolatencyvr.com/locations/parramatta"
       },
       {
         "buttonType": "Share"
