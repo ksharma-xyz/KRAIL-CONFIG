@@ -955,6 +955,53 @@
         "buttonType": "Cta",
         "label": "Book Tickets",
         "url": "https://www.bigbustours.com/en/sydney/sydney-bus-tours"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_hyper_karting_1",
+    "title": "Sydney’s Fastest Electric Go-Kart Track – Hyper Karting",
+    "description": "Race on Australia’s longest indoor track with F1-style karts, VR arena, and ever-changing layouts.",
+    "imageList": [
+      "https://i.imgur.com/781xra0.jpeg"
+    ],
+    "type": "Sports",
+    "disclaimer": "Image Credit: hyperkarting.com.au",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Hyper Karting",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/hyperkarting"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_zero_latency_parramatta",
+    "title": "Zero Latency Parramatta – Sydney’s Ultimate VR Playground",
+    "description": "Battle zombies, escape rooms, and wild adventures await in Parramatta’s massive free-roam VR arena.",
+    "imageList": [
+      "https://i.imgur.com/AD5V55O.png"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Your VR Adventure",
+        "url": "https://zerolatencyvr.com/locations/parramatta"
+      },
+      {
+        "buttonType": "Share"
       }
     ]
   }
