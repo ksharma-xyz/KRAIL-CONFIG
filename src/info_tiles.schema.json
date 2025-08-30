@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["key", "title", "description", "type"],
+    "properties": {
+      "key": { "type": "string" },
+      "title": { "type": "string" },
+      "description": { "type": "string" },
+      "type": {
+        "type": "string",
+        "enum": ["APP_UPDATE", "INFO", "CRITICAL_ALERT"]
+      },
+      "dismissCtaText": { "type": "string" },
+      "endDate": { "type": "string", "format": "date" },
+      "primaryCta": {
+        "type": "object",
+        "required": ["text", "url"],
+        "properties": {
+          "text": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  }
+}
