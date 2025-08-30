@@ -42,6 +42,32 @@
         }
       }
     },
+    "/info_tiles": {
+      "get": {
+        "summary": "Get info_tiles schema",
+        "description": "Retrieve the info_tiles schema with structure and examples",
+        "operationId": "getInfo_tiles",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved info_tiles schema",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/info_tiles"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Schema not found"
+          }
+        }
+      }
+    },
     "/notice": {
       "get": {
         "summary": "Get notice schema",
@@ -136,6 +162,9 @@
                   "properties": {
                     "festivals": {
                       "$ref": "#/components/schemas/festivals"
+                    },
+                    "info_tiles": {
+                      "$ref": "#/components/schemas/info_tiles"
                     },
                     "notice": {
                       "$ref": "#/components/schemas/notice"
@@ -740,6 +769,92 @@
             }
           ]
         }
+      },
+      "info_tiles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "key",
+            "title",
+            "description",
+            "type"
+          ],
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "APP_UPDATE",
+                "INFO",
+                "CRITICAL_ALERT"
+              ]
+            },
+            "dismissCtaText": {
+              "type": "string"
+            },
+            "endDate": {
+              "type": "string",
+              "format": "date"
+            },
+            "primaryCta": {
+              "type": "object",
+              "required": [
+                "text",
+                "url"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          }
+        },
+        "description": "Schema for info_tiles",
+        "example": [
+          {
+            "key": "update_2024",
+            "title": "App Update Available",
+            "description": "A new version of the app is available. Update now for new features.",
+            "type": "APP_UPDATE",
+            "dismissCtaText": "Dismiss",
+            "primaryCta": {
+              "text": "Update",
+              "url": "https://example.com/app"
+            }
+          },
+          {
+            "key": "info_001",
+            "title": "Welcome!",
+            "description": "Thanks for installing our app.",
+            "type": "INFO",
+            "dismissCtaText": "Dismiss",
+            "endDate": "2025-09-01",
+            "primaryCta": {
+              "text": "Learn More",
+              "url": "https://example.com/welcome"
+            }
+          },
+          {
+            "key": "critical_01",
+            "title": "Security Alert",
+            "description": "Please update your app immediately.",
+            "type": "CRITICAL_ALERT"
+          }
+        ]
       },
       "notice": {
         "type": "object",
