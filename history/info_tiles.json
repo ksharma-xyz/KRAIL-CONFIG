@@ -1,0 +1,14 @@
+[
+  {
+    "key": "opal_fare_2025",
+    "title": "Your Opal fare has changed",
+    "description": "Starting 14 July 2025, Opal fares have been increased by 2.5% for the annual consumer price index (CPI) movement.",
+    "type": "INFO",
+    "endDate": "2025-12-31",
+    "dismissCtaText": "Dismiss",
+    "primaryCta": {
+      "text": "Read more",
+      "url": "https://transportnsw.info/news/2025/opal-fare-changes-from-14-july"
+    }
+  }
+]
