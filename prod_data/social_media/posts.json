@@ -1,0 +1,59 @@
+{
+  "festival": "DIWALI",
+  "year": 2025,
+  "startDate": "2025-10-20",
+  "endDate": "2025-10-20",
+  "locale": "en-AU",
+  "posts": [
+    {
+      "platforms": [
+        "meta",
+        "linkedin"
+      ],
+      "message": "✨ Happy Diwali 2025 from Team KRAIL ✨\n\n🪔 This festive season, we’re lighting up not just homes — but also your Krail journeys\n🪔 As you check your timetable or plan your route, you’ll spot glowing Diwali greetings and cheerful diyas within the app\n🪔 May your travels be bright, your connections meaningful, and your celebrations safe and joyful! 💛\n\nDownload KRAIL App 👇\nAndroid - https://play.google.com/store/apps/details?id=xyz.ksharma.krail\niOS - https://apps.apple.com/us/app/krail-app/id6738934832\n\n#KrailApp #Diwali2025 #FestivalOfLights #SydneyEvents #SydneyTrains #SydneyPublicTransport #Sydney #TransportForNSW",
+      "messageMarkdown": "✨ Happy Diwali 2025 from Team KRAIL ✨\n\n🪔 This festive season, we’re lighting up not just homes — but also your Krail journeys\n🪔 As you check your timetable or plan your route, you’ll spot glowing Diwali greetings and cheerful diyas within the app\n🪔 May your travels be bright, your connections meaningful, and your celebrations safe and joyful! 💛\n\nDownload KRAIL App 👇\nAndroid — [Play Store](https://play.google.com/store/apps/details?id=xyz.ksharma.krail)\niOS — [App Store](https://apps.apple.com/us/app/krail-app/id6738934832)",
+      "hashtags": [
+        "KrailApp",
+        "Diwali2025",
+        "FestivalOfLights",
+        "SydneyEvents",
+        "SydneyTrains",
+        "SydneyPublicTransport",
+        "Sydney",
+        "TransportForNSW"
+      ],
+      "links": [
+        {
+          "label": "Android",
+          "url": "https://play.google.com/store/apps/details?id=xyz.ksharma.krail",
+          "type": "app"
+        },
+        {
+          "label": "iOS",
+          "url": "https://apps.apple.com/us/app/krail-app/id6738934832",
+          "type": "app"
+        }
+      ]
+    },
+    {
+      "platforms": [
+        "reddit"
+      ],
+      "title": "🪔 Happy Diwali 2025 from Team KRAIL! 🪔",
+      "message": "We’re lighting up not just homes this season — but your KRAIL journeys too ✨\nIf you open the app today, you’ll see festive Diwali greetings and glowing diyas right in your timetable view — a little touch of light for your daily travel 💛\nMay your commutes be smooth, your connections bright, and your celebrations joyful!\n📱 Download KRAIL App:\nAndroid: Play Store\niOS: App Store\n(Sydney-based app helping you plan smarter routes, check live train info, and keep up with local events.)",
+      "messageMarkdown": "We’re lighting up not just homes this season — but your KRAIL journeys too ✨\nIf you open the app today, you’ll see festive Diwali greetings and glowing diyas right in your timetable view — a little touch of light for your daily travel 💛\nMay your commutes be smooth, your connections bright, and your celebrations joyful!\n📱 Download KRAIL App:\nAndroid: [Play Store](https://play.google.com/store/apps/details?id=xyz.ksharma.krail)\niOS: [App Store](https://apps.apple.com/us/app/krail-app/id6738934832)\n(Sydney-based app helping you plan smarter routes, check live train info, and keep up with local events.)",
+      "links": [
+        {
+          "label": "Android",
+          "url": "https://play.google.com/store/apps/details?id=xyz.ksharma.krail",
+          "type": "app"
+        },
+        {
+          "label": "iOS",
+          "url": "https://apps.apple.com/us/app/krail-app/id6738934832",
+          "type": "app"
+        }
+      ]
+    }
+  ]
+}
