@@ -730,27 +730,6 @@
     ]
   },
   {
-    "cardId": "card_australia_vs_southafrica_odi",
-    "title": "Watch Australia vs South Africa ODI Clash!",
-    "description": "International men’s cricket One-Day series plays at SCG later in 2025. 19Aug - 24Aug 2025",
-    "startDate": "2025-08-19",
-    "endDate": "2025-08-24",
-    "imageList": [
-      "https://resources.cricket-australia.pulselive.com/photo-resources/2025/07/31/29f6a298-eab9-4ee1-86c2-a60249999146/Group-4.png?width=700&height=396"
-    ],
-    "type": "Sports",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Buy Tickets",
-        "url": "https://www.cricket.com.au/tickets/series/CA:3121?"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
     "cardId": "card_sydney_indoor_ski_resort_2028",
     "title": "Sydney’s Indoor Ski Resort Opens 2028",
     "description": "Sydney’s long-awaited indoor ski resort opening in 2028 with a 300m snow run, Olympic training zone, and four-star hotel.",
