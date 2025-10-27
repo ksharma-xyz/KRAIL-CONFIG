@@ -846,24 +846,6 @@
     ]
   },
   {
-    "cardId": "card_footloose_1",
-    "title": "Cut Loose, Sydney – Footloose Rocks The Concourse Stage",
-    "description": "Dance in the aisles with the electrifying 80s cult classic live at Chatswood's Concourse Theatre.",
-    "startDate": "2025-08-15",
-    "endDate": "2025-08-30",
-    "imageList": [
-      "https://i.imgur.com/xsag5gA.png"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Get Tickets",
-        "url": "https://paca.sydney/footloose/"
-      }
-    ]
-  },
-  {
     "cardId": "card_candlelight_taylorswift_1",
     "title": "Candlelight – Taylor Swift Tribute",
     "description": "Experience Taylor Swift’s greatest hits by string quartet at St Stephen's Uniting Church, lit by hundreds of candles.",
