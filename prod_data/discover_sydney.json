@@ -160,25 +160,6 @@
     ]
   },
   {
-    "cardId": "card_tulip_time_festival_2025",
-    "title": "Tulip Time Festival - 12 Sep - 6 Oct 2025",
-    "description": "See 80,000+ tulips in bloom at Corbett Gardens, Bowral. Festival runs 12 Sep - 6 Oct 2025 with music, markets and art.",
-    "imageList": [
-      "https://i.imgur.com/gyulz3b.jpeg"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Follow Tulip Trail",
-        "url": "https://www.visitsouthernhighlands.com.au/industry-hub/tulip-time/tulip-trail-2025/"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
     "cardId": "card_taronga_zoo_1",
     "title": "Brilliant Zoo With Harbour Skyline Views",
     "description": "See koalas, kangaroos, giraffes and more. Catch animal shows, feed wildlife, and enjoy stunning views of Sydney Harbour.",
