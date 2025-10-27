@@ -730,26 +730,6 @@
     ]
   },
   {
-    "cardId": "event_wanderer_festival_2025",
-    "title": "Wanderer Festival 2025",
-    "description": "Join the Wanderer Festival on 4-5 Oct at Pambula Beach for music, arts, and community vibes.",
-    "imageList": [
-      "https://i.imgur.com/UHY8iy1.png"
-    ],
-    "type": "Events",
-    "date": "2025-10-04",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Get Tickets",
-        "url": "https://wanderer.com.au/tickets/"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
     "cardId": "event_calamity_jane_sydney_opera_house_2025",
     "title": "Calamity Jane Gallops Back to Sydney | 14 Oct – 16 Nov 2025",
     "description": "Saddle up for a rip-roaring adventure as the acclaimed musical Calamity Jane returns to Sydney, for a limited engagement at the Sydney Opera House",
@@ -791,26 +771,6 @@
     ]
   },
   {
-    "cardId": "event_illusionist_anthony_street_live_show",
-    "title": "Illusionist Anthony Street Live Show | 7 Sep 2025",
-    "description": "Experience modern magic with Anthony Street’s breathtaking illusions and theatrical storytelling at Sydney State Theatre.",
-    "date": "2025-09-07",
-    "imageList": [
-      "https://i.imgur.com/wWq6wXI.png"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Book Now",
-        "url": "https://streetmagic.com.au/sydney"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
     "cardId": "card_bubble_planet_sydney_2025",
     "title": "Step Into Bubble Planet – Sydney's Most Instagrammable Event",
     "description": "Explore 10 bubble worlds from giant balloons to VR. Fun for all ages at Sydney Olympic Park.",
@@ -842,44 +802,6 @@
         "buttonType": "Cta",
         "label": "Buy Tickets",
         "url": "https://titanicexhibition.com.au/sydney"
-      }
-    ]
-  },
-  {
-    "cardId": "card_candlelight_taylorswift_1",
-    "title": "Candlelight – Taylor Swift Tribute",
-    "description": "Experience Taylor Swift’s greatest hits by string quartet at St Stephen's Uniting Church, lit by hundreds of candles.",
-    "startDate": "2025-08-22",
-    "endDate": "2025-08-22",
-    "imageList": [
-      "https://media.timeout.com/images/105967279/1920/1080/image.webp"
-    ],
-    "disclaimer": "Image Credit: Candlelight: A Tribute to Taylor Swift",
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Book Tickets",
-        "url": "https://feverup.com/m/149031"
-      }
-    ]
-  },
-  {
-    "cardId": "card_candlelight_hanszimmer_1",
-    "title": "Candlelight – Hans Zimmer’s Best Works in Sydney",
-    "description": "Enjoy Hans Zimmer’s iconic scores by string quartet at St Stephen’s Uniting Church by candlelight.",
-    "startDate": "2025-09-13",
-    "endDate": "2025-09-13",
-    "imageList": [
-      "https://media.timeout.com/images/105967279/1920/1080/image.webp"
-    ],
-    "disclaimer": "Image Credit: Candlelight: Hans Zimmer's Best Works & More",
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Book Tickets",
-        "url": "https://feverup.com/m/111196"
       }
     ]
   },
@@ -941,99 +863,6 @@
         "buttonType": "Cta",
         "label": "Book Your VR Adventure",
         "url": "https://zerolatencyvr.com/locations/parramatta"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
-    "cardId": "card_parramatta_lanes_2025_main",
-    "title": "Parramatta Lanes 2025 – Eats, Beats & Art",
-    "description": "Sydney’s biggest free street festival. 80+ eats, 200+ artists, glowing art.",
-    "startDate": "2025-10-22",
-    "endDate": "2025-10-25",
-    "disclaimer": "",
-    "imageList": [
-      "https://atparramatta.com/sites/discoverparra/files/2025-09/Lanes%20Hydralyte%20%281%29.jpg"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "PartnerSocial",
-        "socialPartnerName": "AT Parramatta",
-        "links": [
-          {
-            "type": "Instagram",
-            "url": "https://www.instagram.com/atparramatta"
-          }
-        ]
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
-    "cardId": "card_parramatta_lanes_eats_trail_2025",
-    "title": "Parramatta Lanes – Epic Eats Trail",
-    "description": "80+ street food stalls and pop-up bars across the CBD.",
-    "startDate": "2025-10-22",
-    "endDate": "2025-10-25",
-    "disclaimer": "Image Credit: AT Parramatta",
-    "imageList": [
-      "https://atparramatta.com/sites/discoverparra/files/2025-09/Lanes%20Blog%20Knafeh.jpg"
-    ],
-    "type": "Food",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Food Guide",
-        "url": "https://atparramatta.com/lanes/taste-your-way-through-epic-eats-trail-parramatta-lanes"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
-    "cardId": "card_parramatta_lanes_music_art_2025",
-    "title": "Parramatta Lanes – Music & Art Highlights",
-    "description": "10 stages, 200+ acts, illuminated streets and installations.",
-    "startDate": "2025-10-22",
-    "endDate": "2025-10-25",
-    "disclaimer": "Image Credit: AT Parramatta",
-    "imageList": [
-      "https://atparramatta.com/sites/discoverparra/files/2025-09/Lanes_The%20Darkness%20Between%20the%20Stars%20%20%281%29_0.jpg"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "See Music & Art",
-        "url": "https://atparramatta.com/lanes/discover-world-music-and-art-parramatta-lanes-2025"
-      },
-      {
-        "buttonType": "Share"
-      }
-    ]
-  },
-  {
-    "cardId": "card_parramatta_lanes_unmissable_2025",
-    "title": "10 Unmissable Experiences at Parramatta Lanes",
-    "description": "Your guide to must-see eats, beats and art across 20 sites.",
-    "startDate": "2025-10-22",
-    "endDate": "2025-10-25",
-    "disclaimer": "Image Credit: AT Parramatta",
-    "imageList": [
-      "https://atparramatta.com/sites/discoverparra/files/Lanes%202025/Resize-Boodle%20fight%201.jpg"
-    ],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Read Guide",
-        "url": "https://atparramatta.com/lanes/10-unmissable-experiences-parramatta-lanes"
       },
       {
         "buttonType": "Share"
