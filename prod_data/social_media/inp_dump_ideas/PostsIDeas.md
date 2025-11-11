@@ -7,7 +7,14 @@
 2. Talking on phone on train
 3. Legs on seat
 4. Bags on seat
-5. 
+5. What do you do on a train? Tell us 
+   - Book
+   - Games
+   - Instagram / Social Media
+   - Work
+   - Sleep
+   - Shopping
+6. 
 
 ## Educational
 
