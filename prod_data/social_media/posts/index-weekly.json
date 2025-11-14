@@ -1,0 +1,33 @@
+{
+  "plan": "1 post per week for 26 weeks",
+  "start_monday": "2025-11-17",
+  "weeks": [
+    {"week": 1,  "week_start": "2025-11-17", "id": "POST-000001", "title": "Train Manners – Eating (Part 1)", "path": "posts/weekly/2025-11-17/post-000001-train-manners-eating.md"},
+    {"week": 2,  "week_start": "2025-11-24", "id": "POST-000002", "title": "Design UI/UX – Journey card overview", "path": "posts/weekly/2025-11-24/post-000002-journey-card-overview.md"},
+    {"week": 3,  "week_start": "2025-12-01", "id": "POST-000003", "title": "Educational – Train types (Part 1)", "path": "posts/weekly/2025-12-01/post-000003-train-types-part-1.md"},
+    {"week": 4,  "week_start": "2025-12-08", "id": "POST-000004", "title": "Train Travel – Scenic train routes", "path": "posts/weekly/2025-12-08/post-000004-scenic-train-routes.md"},
+    {"week": 5,  "week_start": "2025-12-15", "id": "POST-000005", "title": "Personal – Print postcards, marketing journey start", "path": "posts/weekly/2025-12-15/post-000005-print-postcards-marketing-journey-start.md"},
+    {"week": 6,  "week_start": "2025-12-22", "id": "POST-000006", "title": "City Life – Sydney's Affordable Art Fair", "path": "posts/weekly/2025-12-22/post-000006-sydneys-affordable-art-fair.md"},
+    {"week": 7,  "week_start": "2025-12-29", "id": "POST-000007", "title": "Train Manners – Talking on phone on train", "path": "posts/weekly/2025-12-29/post-000007-talking-on-phone.md"},
+    {"week": 8,  "week_start": "2026-01-05", "id": "POST-000008", "title": "Educational – Train types (Part 2)", "path": "posts/weekly/2026-01-05/post-000008-train-types-part-2.md"},
+    {"week": 9,  "week_start": "2026-01-12", "id": "POST-000009", "title": "Design UI/UX – What info is most important?", "path": "posts/weekly/2026-01-12/post-000009-what-info-is-most-important.md"},
+    {"week": 10, "week_start": "2026-01-19", "id": "POST-000010", "title": "Train Travel – Scenic routes (Part 2)", "path": "posts/weekly/2026-01-19/post-000010-scenic-routes-part-2.md"},
+    {"week": 11, "week_start": "2026-01-26", "id": "POST-000011", "title": "Train Manners – Legs on seat", "path": "posts/weekly/2026-01-26/post-000011-legs-on-seat.md"},
+    {"week": 12, "week_start": "2026-02-02", "id": "POST-000012", "title": "Educational – How timetables work", "path": "posts/weekly/2026-02-02/post-000012-how-timetables-work.md"},
+    {"week": 13, "week_start": "2026-02-09", "id": "POST-000013", "title": "Design UI/UX – Animations & micro-interactions", "path": "posts/weekly/2026-02-09/post-000013-animations-and-micro-interactions.md"},
+    {"week": 14, "week_start": "2026-02-16", "id": "POST-000014", "title": "Train Travel – Train station facilities", "path": "posts/weekly/2026-02-16/post-000014-train-station-facilities.md"},
+    {"week": 15, "week_start": "2026-02-23", "id": "POST-000015", "title": "Personal – Founder weekly reflection", "path": "posts/weekly/2026-02-23/post-000015-founder-weekly-reflection.md"},
+    {"week": 16, "week_start": "2026-03-02", "id": "POST-000016", "title": "Train Manners – Bags on seat", "path": "posts/weekly/2026-03-02/post-000016-bags-on-seat.md"},
+    {"week": 17, "week_start": "2026-03-09", "id": "POST-000017", "title": "City Life – Events near stations (general)", "path": "posts/weekly/2026-03-09/post-000017-events-near-stations.md"},
+    {"week": 18, "week_start": "2026-03-16", "id": "POST-000018", "title": "Educational – Peak vs off-peak tips", "path": "posts/weekly/2026-03-16/post-000018-peak-vs-off-peak-tips.md"},
+    {"week": 19, "week_start": "2026-03-23", "id": "POST-000019", "title": "Train Travel – Accessibility tips", "path": "posts/weekly/2026-03-23/post-000019-accessibility-tips.md"},
+    {"week": 20, "week_start": "2026-03-30", "id": "POST-000020", "title": "Train Manners – What do you do on a train? Poll", "path": "posts/weekly/2026-03-30/post-000020-what-do-you-do-on-a-train-poll.md"},
+    {"week": 21, "week_start": "2026-04-06", "id": "POST-000021", "title": "Train Manners – Eating on train (Part 2)", "path": "posts/weekly/2026-04-06/post-000021-eating-on-train-part-2.md"},
+    {"week": 22, "week_start": "2026-04-13", "id": "POST-000022", "title": "Design UI/UX – Compare with other apps", "path": "posts/weekly/2026-04-13/post-000022-compare-with-other-apps.md"},
+    {"week": 23, "week_start": "2026-04-20", "id": "POST-000023", "title": "Train Manners – Talking on phone (Part 2)", "path": "posts/weekly/2026-04-20/post-000023-talking-on-phone-part-2.md"},
+    {"week": 24, "week_start": "2026-04-27", "id": "POST-000024", "title": "Design UI/UX – How can we make it better?", "path": "posts/weekly/2026-04-27/post-000024-how-can-we-make-it-better.md"},
+    {"week": 25, "week_start": "2026-05-04", "id": "POST-000025", "title": "Train Manners – Legs on seat (Part 2)", "path": "posts/weekly/2026-05-04/post-000025-legs-on-seat-part-2.md"},
+    {"week": 26, "week_start": "2026-05-11", "id": "POST-000026", "title": "Train Manners – Bags on seat (Part 2)", "path": "posts/weekly/2026-05-11/post-000026-bags-on-seat-part-2.md"}
+  ]
+}
+
