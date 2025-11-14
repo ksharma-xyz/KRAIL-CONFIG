@@ -1,16 +1,6 @@
 {
   "confirmedDates": [
     {
-      "type": "CHRISTMAS",
-      "month": 12,
-      "day": 25,
-      "emojiList": [
-        "🎄",
-        "🎅"
-      ],
-      "greeting": "Merry Christmas"
-    },
-    {
       "type": "NEW_YEAR",
       "month": 1,
       "day": 1,
@@ -20,34 +10,15 @@
       "greeting": "Happy New Year"
     },
     {
-      "type": "NEW_YEAR_EVE",
-      "month": 12,
-      "day": 31,
+      "type": "AUSTRALIA_DAY",
+      "month": 1,
+      "day": 26,
       "emojiList": [
+        "🇦🇺",
+        "🎉",
         "🎆"
       ],
-      "greeting": "New Year's Eve"
-    },
-    {
-      "type": "ANZAC_DAY",
-      "month": 4,
-      "day": 25,
-      "emojiList": [
-        "🌺",
-        "🇦🇺",
-        "🎖️"
-      ],
-      "greeting": "Lest we forget"
-    },
-    {
-      "type": "HALLOWEEN",
-      "month": 10,
-      "day": 31,
-      "emojiList": [
-        "🎃",
-        "👻"
-      ],
-      "greeting": "Spooktacular vibes only!"
+      "greeting": "Australia Day"
     },
     {
       "type": "ROSE_DAY",
@@ -126,15 +97,15 @@
       "greeting": "Love is in the air"
     },
     {
-      "type": "AUSTRALIA_DAY",
-      "month": 1,
-      "day": 26,
+      "type": "POKEMON_DAY",
+      "month": 2,
+      "day": 27,
       "emojiList": [
-        "🇦🇺",
-        "🎉",
-        "🎆"
+        "🎮",
+        "🧢",
+        "⚡️"
       ],
-      "greeting": "Australia Day"
+      "greeting": "Gotta Catch 'Em All"
     },
     {
       "type": "WOMENS_DAY",
@@ -151,67 +122,26 @@
       "greeting": "International Women's Day"
     },
     {
-      "type": "MENS_DAY",
-      "month": 11,
-      "day": 19,
+      "type": "BARBIE_DAY",
+      "month": 3,
+      "day": 9,
       "emojiList": [
-        "💙",
-        "♂️",
-        "🚹",
-        "👨‍🚒",
-        "👨‍🌾",
-        "👨‍🚀"
+        "👠",
+        "💖",
+        "👗",
+        "🎀"
       ],
-      "greeting": "International Men's Day"
+      "greeting": "Be anything. Go everywhere. \uD83D\uDC96"
     },
     {
-      "type": "ENGINEERS_DAY",
-      "month": 9,
-      "day": 15,
+      "type": "MARIO_DAY",
+      "month": 3,
+      "day": 10,
       "emojiList": [
-        "⚙️",
-        "🔧"
+        "🍄",
+        "🎮"
       ],
-      "greeting": "Engineers Day"
-    },
-    {
-      "type": "NURSES_DAY",
-      "month": 5,
-      "day": 12,
-      "emojiList": [
-        "🏥",
-        "🩺"
-      ],
-      "greeting": "Nurses Day"
-    },
-    {
-      "type": "FRIENDSHIP_DAY",
-      "month": 8,
-      "day": 3,
-      "emojiList": [
-        "🤝",
-        "💛"
-      ],
-      "greeting": "Friendship Day"
-    },
-    {
-      "type": "PEACE_DAY",
-      "month": 9,
-      "day": 21,
-      "emojiList": [
-        "☮️",
-        "✌️"
-      ],
-      "greeting": "International Peace Day"
-    },
-    {
-      "type": "A11Y_DAY",
-      "month": 5,
-      "day": 16,
-      "emojiList": [
-        "♿️"
-      ],
-      "greeting": "Global Accessibility Awareness Day"
+      "greeting": "It's-a me, Mario! Let's-a go! \uD83C\uDF44"
     },
     {
       "type": "PI_DAY",
@@ -224,47 +154,26 @@
       "greeting": "Pi Day"
     },
     {
-      "type": "INTERNATIONAL_YOGA_DAY",
-      "month": 6,
-      "day": 21,
+      "type": "ANZAC_DAY",
+      "month": 4,
+      "day": 25,
       "emojiList": [
-        "🧘",
-        "🧘‍♀️",
-        "🧘‍♂️",
-        "🕉️"
+        "🌺",
+        "🇦🇺",
+        "🎖️"
       ],
-      "greeting": "International Yoga Day"
+      "greeting": "Lest we forget"
     },
     {
-      "type": "WORLD_ENVIRONMENT_DAY",
-      "month": 6,
-      "day": 5,
+      "type": "HARRY_POTTER_DAY",
+      "month": 5,
+      "day": 2,
       "emojiList": [
-        "🌍",
-        "🌱",
-        "🌳"
+        "🪄",
+        "🧙‍♂️",
+        "⚡️"
       ],
-      "greeting": "World Environment Day"
-    },
-    {
-      "type": "MENTAL_HEALTH_DAY",
-      "month": 10,
-      "day": 10,
-      "emojiList": [
-        "🧠"
-      ],
-      "greeting": "World Mental Health Day"
-    },
-    {
-      "type": "WORLD_OCEANS_DAY",
-      "month": 6,
-      "day": 8,
-      "emojiList": [
-        "🌊",
-        "🐬",
-        "🐠"
-      ],
-      "greeting": "World Oceans Day"
+      "greeting": "Hop on Platform 9¾ — Magic Awaits!"
     },
     {
       "type": "STAR_WARS_DAY",
@@ -279,70 +188,57 @@
       "greeting": "May the Force Ride With You"
     },
     {
-      "type": "MARIO_DAY",
-      "month": 3,
-      "day": 10,
-      "emojiList": [
-        "🍄",
-        "🎮"
-      ],
-      "greeting": "It's-a me, Mario! Let's-a go! \uD83C\uDF44"
-    },
-    {
-      "type": "HOBBIT_DAY",
-      "month": 9,
-      "day": 22,
-      "emojiList": [
-        "🧙",
-        "🍄",
-        "🌋"
-      ],
-      "greeting": "Happy Hobbit Day"
-    },
-    {
-      "type": "HARRY_POTTER_DAY",
+      "type": "NURSES_DAY",
       "month": 5,
-      "day": 2,
+      "day": 12,
       "emojiList": [
-        "🪄",
-        "🧙‍♂️",
-        "⚡️"
+        "🏥",
+        "🩺"
       ],
-      "greeting": "Hop on Platform 9¾ — Magic Awaits!"
+      "greeting": "Nurses Day"
     },
     {
-      "type": "POKEMON_DAY",
-      "month": 2,
-      "day": 27,
+      "type": "A11Y_DAY",
+      "month": 5,
+      "day": 16,
       "emojiList": [
-        "🎮",
-        "🧢",
-        "⚡️"
+        "♿️"
       ],
-      "greeting": "Gotta Catch 'Em All"
+      "greeting": "Global Accessibility Awareness Day"
     },
     {
-      "type": "BARBIE_DAY",
-      "month": 3,
-      "day": 9,
-      "emojiList": [
-        "👠",
-        "💖",
-        "👗",
-        "🎀"
-      ],
-      "greeting": "Be anything. Go everywhere. \uD83D\uDC96"
-    },
-    {
-      "type": "TEACHERS_DAY",
-      "month": 9,
+      "type": "WORLD_ENVIRONMENT_DAY",
+      "month": 6,
       "day": 5,
       "emojiList": [
-        "👩‍🏫",
-        "👨‍🏫",
-        "📚"
+        "🌍",
+        "🌱",
+        "🌳"
       ],
-      "greeting": "Happy Teachers' Day"
+      "greeting": "World Environment Day"
+    },
+    {
+      "type": "WORLD_OCEANS_DAY",
+      "month": 6,
+      "day": 8,
+      "emojiList": [
+        "🌊",
+        "🐬",
+        "🐠"
+      ],
+      "greeting": "World Oceans Day"
+    },
+    {
+      "type": "INTERNATIONAL_YOGA_DAY",
+      "month": 6,
+      "day": 21,
+      "emojiList": [
+        "🧘",
+        "🧘‍♀️",
+        "🧘‍♂️",
+        "🕉️"
+      ],
+      "greeting": "International Yoga Day"
     },
     {
       "type": "WORLD_EMOJI_DAY",
@@ -354,6 +250,16 @@
         "🔥"
       ],
       "greeting": "World Emoji Day"
+    },
+    {
+      "type": "FRIENDSHIP_DAY",
+      "month": 8,
+      "day": 3,
+      "emojiList": [
+        "🤝",
+        "💛"
+      ],
+      "greeting": "Friendship Day"
     },
     {
       "type": "INTERNATIONAL_CAT_DAY",
@@ -377,6 +283,95 @@
       "greeting": "International Dog Day"
     },
     {
+      "type": "TEACHERS_DAY",
+      "month": 9,
+      "day": 5,
+      "emojiList": [
+        "👩‍🏫",
+        "👨‍🏫",
+        "📚"
+      ],
+      "greeting": "Happy Teachers' Day"
+    },
+    {
+      "type": "ENGINEERS_DAY",
+      "month": 9,
+      "day": 15,
+      "emojiList": [
+        "⚙️",
+        "🔧"
+      ],
+      "greeting": "Engineers Day"
+    },
+    {
+      "type": "PEACE_DAY",
+      "month": 9,
+      "day": 21,
+      "emojiList": [
+        "☮️",
+        "✌️"
+      ],
+      "greeting": "International Peace Day"
+    },
+    {
+      "type": "HOBBIT_DAY",
+      "month": 9,
+      "day": 22,
+      "emojiList": [
+        "🧙",
+        "🍄",
+        "🌋"
+      ],
+      "greeting": "Happy Hobbit Day"
+    },
+    {
+      "type": "MENTAL_HEALTH_DAY",
+      "month": 10,
+      "day": 10,
+      "emojiList": [
+        "🧠"
+      ],
+      "greeting": "World Mental Health Day"
+    },
+    {
+      "type": "HALLOWEEN",
+      "month": 10,
+      "day": 31,
+      "emojiList": [
+        "🎃",
+        "👻"
+      ],
+      "greeting": "Spooktacular vibes only!"
+    },
+    {
+      "type": "REMEMBRANCE_DAY",
+      "month": 11,
+      "day": 11,
+      "emojiList": ["🌺", "🕊️", "🇦🇺"],
+      "greeting": "Remembrance Day — Lest we forget"
+    },
+    {
+      "type": "WORLD_KINDNESS_DAY",
+      "month": 11,
+      "day": 13,
+      "emojiList": ["🤝", "💖", "🌍"],
+      "greeting": "World Kindness Day"
+    },
+    {
+      "type": "MENS_DAY",
+      "month": 11,
+      "day": 19,
+      "emojiList": [
+        "💙",
+        "♂️",
+        "🚹",
+        "👨‍🚒",
+        "👨‍🌾",
+        "👨‍🚀"
+      ],
+      "greeting": "International Men's Day"
+    },
+    {
       "type": "TAYLOR_SWIFT_DAY",
       "month": 12,
       "day": 13,
@@ -388,18 +383,23 @@
       "greeting": "Happy Taylor Swift Day"
     },
     {
-      "type": "WORLD_KINDNESS_DAY",
-      "month": 11,
-      "day": 13,
-      "emojiList": ["🤝", "💖", "🌍"],
-      "greeting": "World Kindness Day"
+      "type": "CHRISTMAS",
+      "month": 12,
+      "day": 25,
+      "emojiList": [
+        "🎄",
+        "🎅"
+      ],
+      "greeting": "Merry Christmas"
     },
     {
-      "type": "REMEMBRANCE_DAY",
-      "month": 11,
-      "day": 11,
-      "emojiList": ["🌺", "🕊️", "🇦🇺"],
-      "greeting": "Remembrance Day — Lest we forget"
+      "type": "NEW_YEAR_EVE",
+      "month": 12,
+      "day": 31,
+      "emojiList": [
+        "🎆"
+      ],
+      "greeting": "New Year's Eve"
     }
   ],
   "variableDates": [
