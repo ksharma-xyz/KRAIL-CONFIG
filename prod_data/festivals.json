@@ -386,6 +386,20 @@
         "🩷"
       ],
       "greeting": "Happy Taylor Swift Day"
+    },
+    {
+      "type": "WORLD_KINDNESS_DAY",
+      "month": 11,
+      "day": 13,
+      "emojiList": ["🤝", "💖", "🌍"],
+      "greeting": "World Kindness Day"
+    },
+    {
+      "type": "REMEMBRANCE_DAY",
+      "month": 11,
+      "day": 11,
+      "emojiList": ["🌺", "🕊️", "🇦🇺"],
+      "greeting": "Remembrance Day — Lest we forget"
     }
   ],
   "variableDates": [
