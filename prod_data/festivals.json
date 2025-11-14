@@ -458,8 +458,8 @@
     },
     {
       "type": "NAIDOC_WEEK",
-      "startDate": "2025-07-06",
-      "endDate": "2025-07-13",
+      "startDate": "2026-07-05",
+      "endDate": "2026-07-12",
       "emojiList": [
         "🖤",
         "💛",
@@ -469,8 +469,8 @@
     },
     {
       "type": "HOLI",
-      "startDate": "2025-03-14",
-      "endDate": "2025-03-14",
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-04",
       "emojiList": [
         "🌈",
         "🫧",
@@ -480,8 +480,8 @@
     },
     {
       "type": "MELBOURNE_CUP",
-      "startDate": "2025-11-04",
-      "endDate": "2025-11-04",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
       "emojiList": [
         "🐎",
         "💸"
@@ -502,8 +502,8 @@
     },
     {
       "type": "DIWALI",
-      "startDate": "2025-10-20",
-      "endDate": "2025-10-20",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
       "emojiList": [
         "🪔",
         "🎆"
