@@ -78,31 +78,31 @@ Week 1: Talking → Week 3–4: Talking follow-up, etc.
 
 Use this table to plan only the week and dates. Each row links to the specific post file.
 
-| Week # | Week Start | Content Creation Window | Post – Title / Theme                                                                 | Planned Post Date |
-|-------:|------------|-------------------------|--------------------------------------------------------------------------------------|-------------------|
-| 1      | 2025-11-17 |                         | Train Manners – Eating (Part 1) [POST-000001](../posts/weekly/2025-11-17/post-000001-train-manners-eating.md) |                   |
-| 2      | 2025-11-24 |                         | Design UI/UX – Journey card overview [POST-000002](../posts/weekly/2025-11-24/post-000002-journey-card-overview.md) |                   |
-| 3      | 2025-12-01 |                         | Educational – Train types (Part 1) [POST-000003](../posts/weekly/2025-12-01/post-000003-train-types-part-1.md) |                   |
-| 4      | 2025-12-08 |                         | Train Travel – Scenic train routes [POST-000004](../posts/weekly/2025-12-08/post-000004-scenic-train-routes.md) |                   |
-| 5      | 2025-12-15 |                         | Personal – Print postcards, marketing journey start [POST-000005](../posts/weekly/2025-12-15/post-000005-print-postcards-marketing-journey-start.md) |                   |
-| 6      | 2025-12-22 |                         | City Life – Sydney's Affordable Art Fair [POST-000006](../posts/weekly/2025-12-22/post-000006-sydneys-affordable-art-fair.md) |                   |
-| 7      | 2025-12-29 |                         | Train Manners – Talking on phone [POST-000007](../posts/weekly/2025-12-29/post-000007-talking-on-phone.md) |                   |
-| 8      | 2026-01-05 |                         | Educational – Train types (Part 2) [POST-000008](../posts/weekly/2026-01-05/post-000008-train-types-part-2.md) |                   |
-| 9      | 2026-01-12 |                         | Design UI/UX – What info is most important? [POST-000009](../posts/weekly/2026-01-12/post-000009-what-info-is-most-important.md) |                   |
-| 10     | 2026-01-19 |                         | Train Travel – Scenic routes (Part 2) [POST-000010](../posts/weekly/2026-01-19/post-000010-scenic-routes-part-2.md) |                   |
-| 11     | 2026-01-26 |                         | Train Manners – Legs on seat [POST-000011](../posts/weekly/2026-01-26/post-000011-legs-on-seat.md) |                   |
-| 12     | 2026-02-02 |                         | Educational – How timetables work [POST-000012](../posts/weekly/2026-02-02/post-000012-how-timetables-work.md) |                   |
-| 13     | 2026-02-09 |                         | Design UI/UX – Animations & micro-interactions [POST-000013](../posts/weekly/2026-02-09/post-000013-animations-and-micro-interactions.md) |                   |
-| 14     | 2026-02-16 |                         | Train Travel – Train station facilities [POST-000014](../posts/weekly/2026-02-16/post-000014-train-station-facilities.md) |                   |
-| 15     | 2026-02-23 |                         | Personal – Founder weekly reflection [POST-000015](../posts/weekly/2026-02-23/post-000015-founder-weekly-reflection.md) |                   |
-| 16     | 2026-03-02 |                         | Train Manners – Bags on seat [POST-000016](../posts/weekly/2026-03-02/post-000016-bags-on-seat.md) |                   |
-| 17     | 2026-03-09 |                         | City Life – Events near stations (general) [POST-000017](../posts/weekly/2026-03-09/post-000017-events-near-stations.md) |                   |
-| 18     | 2026-03-16 |                         | Educational – Peak vs off-peak tips [POST-000018](../posts/weekly/2026-03-16/post-000018-peak-vs-off-peak-tips.md) |                   |
-| 19     | 2026-03-23 |                         | Train Travel – Accessibility tips [POST-000019](../posts/weekly/2026-03-23/post-000019-accessibility-tips.md) |                   |
-| 20     | 2026-03-30 |                         | Train Manners – What do you do on a train? Poll [POST-000020](../posts/weekly/2026-03-30/post-000020-what-do-you-do-on-a-train-poll.md) |                   |
-| 21     | 2026-04-06 |                         | Train Manners – Eating on train (Part 2) [POST-000021](../posts/weekly/2026-04-06/post-000021-eating-on-train-part-2.md) |                   |
-| 22     | 2026-04-13 |                         | Design UI/UX – Compare with other apps [POST-000022](../posts/weekly/2026-04-13/post-000022-compare-with-other-apps.md) |                   |
-| 23     | 2026-04-20 |                         | Train Manners – Talking on phone (Part 2) [POST-000023](../posts/weekly/2026-04-20/post-000023-talking-on-phone-part-2.md) |                   |
-| 24     | 2026-04-27 |                         | Design UI/UX – How can we make it better? [POST-000024](../posts/weekly/2026-04-27/post-000024-how-can-we-make-it-better.md) |                   |
-| 25     | 2026-05-04 |                         | Train Manners – Legs on seat (Part 2) [POST-000025](../posts/weekly/2026-05-04/post-000025-legs-on-seat-part-2.md) |                   |
-| 26     | 2026-05-11 |                         | Train Manners – Bags on seat (Part 2) [POST-000026](../posts/weekly/2026-05-11/post-000026-bags-on-seat-part-2.md) |                   |
+| Week \# | Week Start | Done | Post – Title / Theme |
+|-------:|------------|:----:|----------------------|
+| 1 | 2025-11-17 | [X]  | Train Manners – Eating (Part 1) `POST-000001` |
+| 2 | 2025-11-24 | [ ]  | Design UI/UX – Journey card overview `POST-000002` |
+| 3 | 2025-12-01 | [ ]  | Educational – Train types (Part 1) `POST-000003` |
+| 4 | 2025-12-08 | [ ]  | Train Travel – Scenic train routes `POST-000004` |
+| 5 | 2025-12-15 | [ ]  | Personal – Print postcards, marketing journey start `POST-000005` |
+| 6 | 2025-12-22 | [ ]  | City Life – Sydney's Affordable Art Fair `POST-000006` |
+| 7 | 2025-12-29 | [ ]  | Train Manners – Talking on phone `POST-000007` |
+| 8 | 2026-01-05 | [ ]  | Educational – Train types (Part 2) `POST-000008` |
+| 9 | 2026-01-12 | [ ]  | Design UI/UX – What info is most important? `POST-000009` |
+| 10 | 2026-01-19 | [ ]  | Train Travel – Scenic routes (Part 2) `POST-000010` |
+| 11 | 2026-01-26 | [ ]  | Train Manners – Legs on seat `POST-000011` |
+| 12 | 2026-02-02 | [ ]  | Educational – How timetables work `POST-000012` |
+| 13 | 2026-02-09 | [ ]  | Design UI/UX – Animations & micro-interactions `POST-000013` |
+| 14 | 2026-02-16 | [ ]  | Train Travel – Train station facilities `POST-000014` |
+| 15 | 2026-02-23 | [ ]  | Personal – Founder weekly reflection `POST-000015` |
+| 16 | 2026-03-02 | [ ]  | Train Manners – Bags on seat `POST-000016` |
+| 17 | 2026-03-09 | [ ]  | City Life – Events near stations (general) `POST-000017` |
+| 18 | 2026-03-16 | [ ]  | Educational – Peak vs off-peak tips `POST-000018` |
+| 19 | 2026-03-23 | [ ]  | Train Travel – Accessibility tips `POST-000019` |
+| 20 | 2026-03-30 | [ ]  | Train Manners – What do you do on a train? Poll `POST-000020` |
+| 21 | 2026-04-06 | [ ]  | Train Manners – Eating on train (Part 2) `POST-000021` |
+| 22 | 2026-04-13 | [ ]  | Design UI/UX – Compare with other apps `POST-000022` |
+| 23 | 2026-04-20 | [ ]  | Train Manners – Talking on phone (Part 2) `POST-000023` |
+| 24 | 2026-04-27 | [ ]  | Design UI/UX – How can we make it better? `POST-000024` |
+| 25 | 2026-05-04 | [ ]  | Train Manners – Legs on seat (Part 2) `POST-000025` |
+| 26 | 2026-05-11 | [ ]  | Train Manners – Bags on seat (Part 2) `POST-000026` |
