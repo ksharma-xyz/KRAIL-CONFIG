@@ -1163,5 +1163,26 @@
         "buttonType": "Share"
       }
     ]
+  },
+  {
+    "cardId": "event_australia_day_fireworks_cruise_2026",
+    "title": "Australia Day Fireworks Cruise - Sydney Harbour",
+    "description": "3-hour twilight cruise with live concert, jet ski flotilla, parachute displays & harbour fireworks. From $55.",
+    "imageList": [
+      "https://cms-cdn.travellink.com.au/volumes/cccsyd/images/Default-jpg/_lg_3x2/204172/Australia-Day-Live-2021_Circular-Quay_Sydney_DPC_Anna-Warr_9778-CREDIT-TO-AUSTRALIA-DAY-NSW-COUNCIL.webp?v=1684250505"
+    ],
+    "type": "Events",
+    "startDate": "2026-01-26",
+    "endDate": "2026-01-26",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tickets",
+        "url": "https://whatson.cityofsydney.nsw.gov.au/events/australia-day-fireworks-cruise"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
   }
 ]
