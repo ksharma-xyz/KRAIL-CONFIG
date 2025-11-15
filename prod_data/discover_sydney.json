@@ -973,5 +973,26 @@
         "buttonType": "Share"
       }
     ]
+  },
+  {
+    "cardId": "event_cockle_bay_christmas_2025",
+    "title": "Santa's Jet Ski Arrival at Cockle Bay",
+    "description": "Free Christmas celebration with Santa on jet ski, jet-pack acrobats, marching bands, DJs, flash mobs, and fireworks at Darling Harbour.",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/6475ff9ced5fa0b609aa4d115fe4eb47.jpeg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-06",
+    "endDate": "2025-12-06",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Event Details",
+        "url": "https://www.darlingharbour.com/whats-on/cockle-bay-christmas-spectacular/"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
   }
 ]
