@@ -1105,5 +1105,63 @@
       }
     ]
   },
-
+  {
+    "cardId": "event_nye_opera_house_2025",
+    "title": "Opera at Sydney Opera House - NYE Celebration",
+    "description": "Madama Butterfly or NYE Gala with harbour views, fireworks at interval & optional midnight party. From $199.",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/2b298a9c96c1da69dedef463e2efac5f.jpeg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-31",
+    "endDate": "2025-12-31",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tickets",
+        "url": "https://opera.org.au/events/new-years-eve/"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_coast_warriors_tours_1",
+    "title": "Coast Warriors - Local-Vibe Sydney Adventures",
+    "description": "Non-touristy Blue Mountains, Port Stephens & wine tours with flexible custom itineraries. Run by locals who know NSW best.",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/aaa4a2a595e8b8fb3f376b667735c0d9.jpeg"
+    ],
+    "type": "Travel",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tour",
+        "url": "http://www.coastwarriors.com.au"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "card_rocks_ghost_tours_1",
+    "title": "The Rocks Ghost Tours - Haunted Sydney History",
+    "description": "2-hour lantern-lit walk through haunted laneways with spine-tingling stories & local history. Nightly at 7:45pm.",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/0e9e478e7ba174de28a9934a17899c62.jpeg"
+    ],
+    "type": "Events",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tour",
+        "url": "https://www.ghosttours.com.au/"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  }
 ]
