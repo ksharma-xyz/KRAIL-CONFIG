@@ -973,39 +973,5 @@
         "buttonType": "Share"
       }
     ]
-  },
-  {
-    "cardId": "halloscream-2025-lunapark",
-    "title": "Halloscream: Luna Park (30 Oct - 2Nov)",
-    "description": "Sydney's biggest Halloween festival. Scare mazes, unlimited rides & roaming performers.",
-    "startDate": "2025-10-30",
-    "endDate": "2025-11-02",
-    "disclaimer": "Recommended for audiences over 14 years old only..",
-    "imageList": ["https://tickets.lunaparksydney.com/media/calendar_events/image/Red-Face-HS-Ticketing-Header.jpg"],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Buy Tickets",
-        "url": "https://tickets.lunaparksydney.com/calendar_events/event/view/id/350/"
-      }
-    ]
-  },
-  {
-    "cardId": "halloween-familyfest2025",
-    "title": "Halloween Family Fest: Spooktacular Fun for All Ages",
-    "description": "Family-friendly Halloween fun at EQ. Trick or treating, rides, shows, crafts & costume contests.",
-    "startDate": "2025-10-31",
-    "endDate": "2025-11-02",
-    "disclaimer": null,
-    "imageList": ["https://cms.entertainmentquarter.com.au/wp-content/uploads/2020/10/HALLOWEEN-FAMILY-FESTIVAL-EQ-scaled.jpg"],
-    "type": "Events",
-    "buttons": [
-      {
-        "buttonType": "Cta",
-        "label": "Learn More",
-        "url": "https://www.entertainmentquarter.com.au/visit/halloween-family-fest/"
-      }
-    ]
   }
 ]

@@ -81,7 +81,7 @@ Use this table to plan only the week and dates. Each row links to the specific p
 | Week \# | Week Start | Done | Post – Title / Theme |
 |-------:|------------|:----:|----------------------|
 | 1 | 2025-11-17 | [X]  | Train Manners – Eating (Part 1) `POST-000001` |
-| 2 | 2025-11-24 | [ ]  | Design UI/UX – Journey card overview `POST-000002` |
+| 2 | 2025-11-24 | [ ]  | Design UI/UX – Journey card overview `POST-000002` |:
 | 3 | 2025-12-01 | [ ]  | Educational – Train types (Part 1) `POST-000003` |
 | 4 | 2025-12-08 | [ ]  | Train Travel – Scenic train routes `POST-000004` |
 | 5 | 2025-12-15 | [ ]  | Personal – Print postcards, marketing journey start `POST-000005` |
