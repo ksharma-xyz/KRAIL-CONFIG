@@ -987,12 +987,123 @@
     "buttons": [
       {
         "buttonType": "Cta",
-        "label": "Event Details",
-        "url": "https://www.darlingharbour.com/whats-on/cockle-bay-christmas-spectacular/"
+        "label": "See Details",
+        "url": "https://whatson.cityofsydney.nsw.gov.au/events/cockle-bay-christmas-spectacular"
       },
       {
         "buttonType": "Share"
       }
     ]
-  }
+  },
+  {
+    "cardId": "event_tumbalong_christmas_festival_2025",
+    "title": "Christmas Festival at Tumbalong Park",
+    "description": "Free live concert with Lenny Pearce, Sydney Harmony, Christine & Zipporah Anu, plus Santa's arrival.",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/78d5aa0c73b7535bf4a42c8bceabde6e_tm51xp5.jpeg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-13",
+    "endDate": "2025-12-13",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "See Details",
+        "url": "https://whatson.cityofsydney.nsw.gov.au/events/christmas-festival"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "event_makers_shakers_christmas_2025",
+    "title": "Makers & Shakers Christmas Market at White Bay",
+    "description": "140 Aussie makers, handmade gifts, food, workshops & harbour views. $5 entry, kids free, 500 parking spots!",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/5a15a6e7a60b1642bf2bfe3b89ae60e6.jpeg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-13",
+    "endDate": "2025-12-14",
+    "buttons": [
+      {
+        "buttonType": "PartnerSocial",
+        "socialPartnerName": "Makers & Shakers",
+        "links": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/themakersandshakers/?hl=en"
+          }
+        ]
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "event_boxing_day_cruise_2025",
+    "title": "Boxing Day Cruise - Sydney to Hobart Start",
+    "description": "Luxury yacht cruise with 30 guests viewing iconic race start. $395 includes premium viewing & crew.",
+    "imageList": [
+      "https://assets.atdw-online.com.au/images/880af074d9d6809b97ea5d65ea5ef21f.jpeg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-26",
+    "endDate": "2025-12-26",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tickets",
+        "url": "https://whatson.cityofsydney.nsw.gov.au/events/boxing-day-cruise-sydney-to-hobart-yacht-race"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "event_nye_fireworks_cruise_2025",
+    "title": "NYE Fireworks Cruise - Premium Harbour Views",
+    "description": "6-hour cruise with 360° views, open bar, canapés, live DJ & 9pm + midnight fireworks. From $800pp.",
+    "imageList": [
+      "https://www.sydneynewyearsevecruises.com.au/wp-content/uploads/2018/09/Sydney-Opera-House-NYE-1.jpg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-01",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Tickets",
+        "url": "https://www.constellation.cruises/public-events/new-years-eve-2025-sydney-harbour/"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+  {
+    "cardId": "event_cockatoo_island_nye_camping_2025",
+    "title": "Cockatoo Island NYE Camping - Harbour Fireworks",
+    "description": "2-night waterfront camping with front-row NYE fireworks, entertainment & activities. From $550, BYO tent.",
+    "imageList": [
+      "https://www.cockatooisland.gov.au/media/iaae14t3/new-years-eve-accommodation-camping-fireworks-sydney-harbour_650x550.jpg"
+    ],
+    "type": "Events",
+    "startDate": "2025-12-30",
+    "endDate": "2026-01-02",
+    "buttons": [
+      {
+        "buttonType": "Cta",
+        "label": "Book Now",
+        "url": "https://www.cockatooisland.gov.au/en/stay/new-years-eve-accommodation/#mod-33297"
+      },
+      {
+        "buttonType": "Share"
+      }
+    ]
+  },
+
 ]
