@@ -194,16 +194,6 @@
     "disclaimer": "Image Credit: @daily_salt",
     "buttons": [
       {
-        "buttonType": "PartnerSocial",
-        "socialPartnerName": "Whale Watching Sydney",
-        "links": [
-          {
-            "type": "Instagram",
-            "url": "YOUR_URL_HERE"
-          }
-        ]
-      },
-      {
         "buttonType": "Share"
       }
     ]
