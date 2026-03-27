@@ -1,14 +1,15 @@
 [
   {
-    "key": "no_metro_feb_2026",
-    "title": "Metro closure 21-22 Feb",
-    "description": "No Metro Services will run between Tallawong and Sydneham. Replacement buses will operate between Tallawong and Chatswood. Use Train as the alternative for your journey.",
+    "key": "trackwork_mar_28_2026",
+    "title": "Weekend Trackwork: Metro & Sydney Trains",
+    "description": "From Sat 28 to Sun 29 March, partial Metro closures and bus replacements are in effect across multiple lines.\n\nPlan ahead and allow extra travel time.",
     "type": "CRITICAL_ALERT",
-    "endDate": "2026-02-23",
+    "startDate": "2026-03-27",
+    "endDate": "2026-03-30",
     "dismissCtaText": "Dismiss",
     "primaryCta": {
-      "text": "Read more",
-      "url": "https://transportnsw.info/news/2026/upcoming-trackwork-on-sydney-metro"
+      "text": "Learn more",
+      "url": "https://transportnsw.info/news/2026/trackwork-will-affect-sydney-trains-sydney-metro-services-on-saturday-28-sunday-29-march"
     }
   }
 ]
