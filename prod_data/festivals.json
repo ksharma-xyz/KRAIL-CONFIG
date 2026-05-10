@@ -207,6 +207,17 @@
       "greeting": "Global Accessibility Awareness Day"
     },
     {
+      "type": "SORRY_DAY",
+      "month": 5,
+      "day": 26,
+      "emojiList": [
+        "🖤",
+        "💛",
+        "❤️"
+      ],
+      "greeting": "National Sorry Day"
+    },
+    {
       "type": "WORLD_ENVIRONMENT_DAY",
       "month": 6,
       "day": 5,
@@ -239,6 +250,17 @@
         "🕉️"
       ],
       "greeting": "International Yoga Day"
+    },
+    {
+      "type": "BASTILLE_DAY",
+      "month": 7,
+      "day": 14,
+      "emojiList": [
+        "🇫🇷",
+        "🎉",
+        "🗼"
+      ],
+      "greeting": "Bastille Day"
     },
     {
       "type": "WORLD_EMOJI_DAY",
@@ -434,6 +456,17 @@
       "greeting": "Chinese New Year"
     },
     {
+      "type": "MOTHERS_DAY",
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-10",
+      "emojiList": [
+        "💐",
+        "🌸",
+        "💝"
+      ],
+      "greeting": "Happy Mother's Day"
+    },
+    {
       "type": "VIVID_SYDNEY",
       "startDate": "2026-05-22",
       "endDate": "2026-06-13",
@@ -455,6 +488,16 @@
         "🌈"
       ],
       "greeting": "Happy Mardi Gras"
+    },
+    {
+      "type": "KINGS_BIRTHDAY",
+      "startDate": "2026-06-08",
+      "endDate": "2026-06-08",
+      "emojiList": [
+        "👑",
+        "🇦🇺"
+      ],
+      "greeting": "King's Birthday"
     },
     {
       "type": "NAIDOC_WEEK",
@@ -488,6 +531,50 @@
         "🏅"
       ],
       "greeting": "City2Surf Sydney"
+    },
+    {
+      "type": "FATHERS_DAY",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-06",
+      "emojiList": [
+        "👔",
+        "🏆",
+        "💙"
+      ],
+      "greeting": "Happy Father's Day"
+    },
+    {
+      "type": "RU_OK_DAY",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-10",
+      "emojiList": [
+        "💚",
+        "🤝",
+        "💬"
+      ],
+      "greeting": "R U OK? Day"
+    },
+    {
+      "type": "AFL_GRAND_FINAL",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-26",
+      "emojiList": [
+        "🏉",
+        "🏆",
+        "🎉"
+      ],
+      "greeting": "AFL Grand Final Day"
+    },
+    {
+      "type": "NRL_GRAND_FINAL",
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-04",
+      "emojiList": [
+        "🏉",
+        "🏆",
+        "🎉"
+      ],
+      "greeting": "NRL Grand Final Day"
     },
     {
       "type": "MELBOURNE_CUP",
